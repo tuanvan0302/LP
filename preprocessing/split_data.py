@@ -31,8 +31,9 @@ def split_dataframe_by_group(
 	if unique_groups < 3:
 		raise ValueError("Need at least 3 unique groups to create train/val/test splits")
 
+	# Split train+val vs test
 	first_splitter = GroupShuffleSplit(
-		n_splits=1,
+		n_splits=1, # one time split
 		test_size=test_ratio,
 		random_state=random_state,
 	)
@@ -43,6 +44,7 @@ def split_dataframe_by_group(
 	remaining_ratio = train_ratio + val_ratio
 	val_share = val_ratio / remaining_ratio
 
+	# split train vs val
 	second_splitter = GroupShuffleSplit(
 		n_splits=1,
 		test_size=val_share,
