@@ -1,0 +1,8747 @@
+{
+  "summary": {
+    "dataset": "synthetic",
+    "total_samples": 1248,
+    "correct": 537,
+    "accuracy_pct": 43.03,
+    "avg_cer": 0.3514
+  },
+  "details": [
+    {
+      "image": "5_low.png",
+      "label": "60-FP 1469",
+      "prediction": "60-FP 1469",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "5_medium.png",
+      "label": "60-FP 1469",
+      "prediction": "60-FP 1469",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "5_high.png",
+      "label": "60-FP 1469",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "5_occluded.png",
+      "label": "60-FP 1469",
+      "prediction": "60P 1469",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "7_low.png",
+      "label": "47-B1 770.40",
+      "prediction": "47-81 770.40",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "7_medium.png",
+      "label": "47-B1 770.40",
+      "prediction": "47-81 770.40",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "7_high.png",
+      "label": "47-B1 770.40",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "7_occluded.png",
+      "label": "47-B1 770.40",
+      "prediction": "47-81 77040",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "12_low.png",
+      "label": "54-L3 6961",
+      "prediction": "54-L3 6961",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "12_medium.png",
+      "label": "54-L3 6961",
+      "prediction": "54-L3 6961",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "12_high.png",
+      "label": "54-L3 6961",
+      "prediction": "5L-L3 6951",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "12_occluded.png",
+      "label": "54-L3 6961",
+      "prediction": "ES61",
+      "exact_match": false,
+      "cer": 0.75
+    },
+    {
+      "image": "22_low.png",
+      "label": "76-H1 175.50",
+      "prediction": "6-H1 175.50",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "22_medium.png",
+      "label": "76-H1 175.50",
+      "prediction": "175.50",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "22_high.png",
+      "label": "76-H1 175.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "22_occluded.png",
+      "label": "76-H1 175.50",
+      "prediction": "175.50",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "25_low.png",
+      "label": "54-V3 9264",
+      "prediction": "54-V3 9264",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "25_medium.png",
+      "label": "54-V3 9264",
+      "prediction": "54-13 9264",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "25_high.png",
+      "label": "54-V3 9264",
+      "prediction": "54-N3 9264",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "25_occluded.png",
+      "label": "54-V3 9264",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "40_low.png",
+      "label": "59-S2 316.06",
+      "prediction": "59-S2 316.06",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "40_medium.png",
+      "label": "59-S2 316.06",
+      "prediction": "59-52 316.06",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "40_high.png",
+      "label": "59-S2 316.06",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "40_occluded.png",
+      "label": "59-S2 316.06",
+      "prediction": "59.S2 3150C",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "44_low.png",
+      "label": "65-L1 083.96",
+      "prediction": "65 11 08396",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "44_medium.png",
+      "label": "65-L1 083.96",
+      "prediction": "65-11 08396",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "44_high.png",
+      "label": "65-L1 083.96",
+      "prediction": "65-L1 08396",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "44_occluded.png",
+      "label": "65-L1 083.96",
+      "prediction": "C0396",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "57_low.png",
+      "label": "59-X1 374.38",
+      "prediction": "59-X1 374.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "57_medium.png",
+      "label": "59-X1 374.38",
+      "prediction": "59-X1 374.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "57_high.png",
+      "label": "59-X1 374.38",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "57_occluded.png",
+      "label": "59-X1 374.38",
+      "prediction": "59.X 375.38",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "62_low.png",
+      "label": "60-B6 280,32",
+      "prediction": "60 66 280.32",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "62_medium.png",
+      "label": "60-B6 280,32",
+      "prediction": "60 66 280.32",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "62_high.png",
+      "label": "60-B6 280,32",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "62_occluded.png",
+      "label": "60-B6 280,32",
+      "prediction": "GA 86 LOU 22",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "63_low.png",
+      "label": "59-P2 207.70",
+      "prediction": "59-P2 207.70",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "63_medium.png",
+      "label": "59-P2 207.70",
+      "prediction": "59-P2 207.70",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "63_high.png",
+      "label": "59-P2 207.70",
+      "prediction": "59-F2 70770",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "63_occluded.png",
+      "label": "59-P2 207.70",
+      "prediction": "59-72 207.70",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "86_low.png",
+      "label": "59-T1 313.40",
+      "prediction": "59-T1 31340",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "86_medium.png",
+      "label": "59-T1 313.40",
+      "prediction": "59-T1 313.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "86_high.png",
+      "label": "59-T1 313.40",
+      "prediction": "59-T1 31340",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "86_occluded.png",
+      "label": "59-T1 313.40",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "89_low.png",
+      "label": "59-S2 080.82",
+      "prediction": "59-S2 080.82",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "89_medium.png",
+      "label": "59-S2 080.82",
+      "prediction": "59-S2 080.82",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "89_high.png",
+      "label": "59-S2 080.82",
+      "prediction": "59-52 080.82",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "89_occluded.png",
+      "label": "59-S2 080.82",
+      "prediction": "59-S2 08082",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "101_low.png",
+      "label": "59-L1 447.16",
+      "prediction": "59\u00b7L1 44716",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "101_medium.png",
+      "label": "59-L1 447.16",
+      "prediction": "59-L1 447.16",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "101_high.png",
+      "label": "59-L1 447.16",
+      "prediction": "5",
+      "exact_match": false,
+      "cer": 0.8889
+    },
+    {
+      "image": "101_occluded.png",
+      "label": "59-L1 447.16",
+      "prediction": "59 447",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "102_low.png",
+      "label": "59-S1 248.31",
+      "prediction": "59\u00b7S1 248.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "102_medium.png",
+      "label": "59-S1 248.31",
+      "prediction": "59\u00b7S1 248.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "102_high.png",
+      "label": "59-S1 248.31",
+      "prediction": "59 51 248.31",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "102_occluded.png",
+      "label": "59-S1 248.31",
+      "prediction": "248.31",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "105_low.png",
+      "label": "63-B9 579.26",
+      "prediction": "63-B9 579.26",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "105_medium.png",
+      "label": "63-B9 579.26",
+      "prediction": "63-B9 579.26",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "105_high.png",
+      "label": "63-B9 579.26",
+      "prediction": "619 57926",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "105_occluded.png",
+      "label": "63-B9 579.26",
+      "prediction": "63-19 57976",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "108_low.png",
+      "label": "72-K1 085.50",
+      "prediction": "72-K1 085.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "108_medium.png",
+      "label": "72-K1 085.50",
+      "prediction": "72-K1 085.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "108_high.png",
+      "label": "72-K1 085.50",
+      "prediction": "72-K1 085.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "108_occluded.png",
+      "label": "72-K1 085.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "116_low.png",
+      "label": "54-V2 263.10",
+      "prediction": "59\u00b7V2 263.10",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "116_medium.png",
+      "label": "54-V2 263.10",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "116_high.png",
+      "label": "54-V2 263.10",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "116_occluded.png",
+      "label": "54-V2 263.10",
+      "prediction": "9-V2 263.10",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "130_low.png",
+      "label": "78-E1 241.13",
+      "prediction": "78-E1 241.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "130_medium.png",
+      "label": "78-E1 241.13",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "130_high.png",
+      "label": "78-E1 241.13",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "130_occluded.png",
+      "label": "78-E1 241.13",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "160_low.png",
+      "label": "61-C1 064.03",
+      "prediction": "61-C1 064.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "160_medium.png",
+      "label": "61-C1 064.03",
+      "prediction": "61-C1 064.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "160_high.png",
+      "label": "61-C1 064.03",
+      "prediction": "61-C1 064.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "160_occluded.png",
+      "label": "61-C1 064.03",
+      "prediction": "1T1",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "174_low.png",
+      "label": "64-D1 132.41",
+      "prediction": "64-D1 132.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "174_medium.png",
+      "label": "64-D1 132.41",
+      "prediction": "64-D1 132.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "174_high.png",
+      "label": "64-D1 132.41",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "174_occluded.png",
+      "label": "64-D1 132.41",
+      "prediction": "-64-D1 132.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "179_low.png",
+      "label": "59-S1 534.18",
+      "prediction": "59-S1 534.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "179_medium.png",
+      "label": "59-S1 534.18",
+      "prediction": "59-S1 534.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "179_high.png",
+      "label": "59-S1 534.18",
+      "prediction": "FA",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "179_occluded.png",
+      "label": "59-S1 534.18",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "181_low.png",
+      "label": "66-N1 130.34",
+      "prediction": "66-N1 130.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "181_medium.png",
+      "label": "66-N1 130.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "181_high.png",
+      "label": "66-N1 130.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "181_occluded.png",
+      "label": "66-N1 130.34",
+      "prediction": "66-N1 130.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "182_low.png",
+      "label": "59-C1 253.18",
+      "prediction": "59 C1 253.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "182_medium.png",
+      "label": "59-C1 253.18",
+      "prediction": "59-C1 253.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "182_high.png",
+      "label": "59-C1 253.18",
+      "prediction": "59-07 25318",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "182_occluded.png",
+      "label": "59-C1 253.18",
+      "prediction": "59 2531",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "187_low.png",
+      "label": "78-N2 5203",
+      "prediction": "78-N2 5203",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "187_medium.png",
+      "label": "78-N2 5203",
+      "prediction": "5203",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "187_high.png",
+      "label": "78-N2 5203",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "187_occluded.png",
+      "label": "78-N2 5203",
+      "prediction": "5203",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "199_low.png",
+      "label": "85-B1 028.36",
+      "prediction": "85-B1 028.36",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "199_medium.png",
+      "label": "85-B1 028.36",
+      "prediction": "02836",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "199_high.png",
+      "label": "85-B1 028.36",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "199_occluded.png",
+      "label": "85-B1 028.36",
+      "prediction": "83-B1",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "201_low.png",
+      "label": "52-P8 7232",
+      "prediction": "52-P8 7232",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "201_medium.png",
+      "label": "52-P8 7232",
+      "prediction": "52-P8 7232",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "201_high.png",
+      "label": "52-P8 7232",
+      "prediction": "5710 2232",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "201_occluded.png",
+      "label": "52-P8 7232",
+      "prediction": "7232",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "236_low.png",
+      "label": "54-T2 3353",
+      "prediction": "54\u00b7T2 3353",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "236_medium.png",
+      "label": "54-T2 3353",
+      "prediction": "54-T2 3353",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "236_high.png",
+      "label": "54-T2 3353",
+      "prediction": "54-12 3353",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "236_occluded.png",
+      "label": "54-T2 3353",
+      "prediction": "5,-T2 3353",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "254_low.png",
+      "label": "59-E1 341.92",
+      "prediction": "59-E1 341.92",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "254_medium.png",
+      "label": "59-E1 341.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "254_high.png",
+      "label": "59-E1 341.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "254_occluded.png",
+      "label": "59-E1 341.92",
+      "prediction": "59 341.92",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "257_low.png",
+      "label": "52-T5 6177",
+      "prediction": "52.T5 6177",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "257_medium.png",
+      "label": "52-T5 6177",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "257_high.png",
+      "label": "52-T5 6177",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "257_occluded.png",
+      "label": "52-T5 6177",
+      "prediction": "6177 2-T5",
+      "exact_match": false,
+      "cer": 0.875
+    },
+    {
+      "image": "259_low.png",
+      "label": "68-H2 6613",
+      "prediction": "68-H2 6613",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "259_medium.png",
+      "label": "68-H2 6613",
+      "prediction": "68-H2 5613",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "259_high.png",
+      "label": "68-H2 6613",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "259_occluded.png",
+      "label": "68-H2 6613",
+      "prediction": "b8.H2",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "264_low.png",
+      "label": "59-H1 555.56",
+      "prediction": "59-H1 555.56",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "264_medium.png",
+      "label": "59-H1 555.56",
+      "prediction": "15556",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "264_high.png",
+      "label": "59-H1 555.56",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "264_occluded.png",
+      "label": "59-H1 555.56",
+      "prediction": "59-HT 555.",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "272_low.png",
+      "label": "59-H1 593.24",
+      "prediction": "59-H1 593.24",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "272_medium.png",
+      "label": "59-H1 593.24",
+      "prediction": "59-H1 593.24",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "272_high.png",
+      "label": "59-H1 593.24",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "272_occluded.png",
+      "label": "59-H1 593.24",
+      "prediction": "59-H1 593.24",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "279_low.png",
+      "label": "59-T1 802.03",
+      "prediction": "59-T1 802.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "279_medium.png",
+      "label": "59-T1 802.03",
+      "prediction": "59-T1 802.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "279_high.png",
+      "label": "59-T1 802.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "279_occluded.png",
+      "label": "59-T1 802.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "287_low.png",
+      "label": "52-P5 0334",
+      "prediction": "52.P5 0334",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "287_medium.png",
+      "label": "52-P5 0334",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "287_high.png",
+      "label": "52-P5 0334",
+      "prediction": "52-PS 0334",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "287_occluded.png",
+      "label": "52-P5 0334",
+      "prediction": "52.P5",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "296_low.png",
+      "label": "59-Y1 873.04",
+      "prediction": "59-Y1 873.04",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "296_medium.png",
+      "label": "59-Y1 873.04",
+      "prediction": "59.Y1 873.04",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "296_high.png",
+      "label": "59-Y1 873.04",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "296_occluded.png",
+      "label": "59-Y1 873.04",
+      "prediction": "59-Y1 573.0L",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "308_low.png",
+      "label": "59-K1 832.35",
+      "prediction": "59-K1 832.35",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "308_medium.png",
+      "label": "59-K1 832.35",
+      "prediction": "59-K1 832.35",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "308_high.png",
+      "label": "59-K1 832.35",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "308_occluded.png",
+      "label": "59-K1 832.35",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "312_low.png",
+      "label": "59-U1 352.26",
+      "prediction": "59-U1 352.26",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "312_medium.png",
+      "label": "59-U1 352.26",
+      "prediction": "59-01 352.26",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "312_high.png",
+      "label": "59-U1 352.26",
+      "prediction": "59-01 357.26",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "312_occluded.png",
+      "label": "59-U1 352.26",
+      "prediction": "59-01 552.26",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "313_low.png",
+      "label": "59-T1 455.77",
+      "prediction": "59 T1 4J3.",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "313_medium.png",
+      "label": "59-T1 455.77",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "313_high.png",
+      "label": "59-T1 455.77",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "313_occluded.png",
+      "label": "59-T1 455.77",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "315_low.png",
+      "label": "85-B1 178.51",
+      "prediction": "85-B1 178.51",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "315_medium.png",
+      "label": "85-B1 178.51",
+      "prediction": "85-B1 178.51",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "315_high.png",
+      "label": "85-B1 178.51",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "315_occluded.png",
+      "label": "85-B1 178.51",
+      "prediction": "85.B 178.51",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "334_low.png",
+      "label": "59-S2 010.79",
+      "prediction": "59-S2 010.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "334_medium.png",
+      "label": "59-S2 010.79",
+      "prediction": "59-S2 010.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "334_high.png",
+      "label": "59-S2 010.79",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "334_occluded.png",
+      "label": "59-S2 010.79",
+      "prediction": "59-S2 010.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "347_low.png",
+      "label": "59-V2 453.87",
+      "prediction": "59-V2 453.87",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "347_medium.png",
+      "label": "59-V2 453.87",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "347_high.png",
+      "label": "59-V2 453.87",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "347_occluded.png",
+      "label": "59-V2 453.87",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "354_low.png",
+      "label": "51-S5 7559",
+      "prediction": "51-S5 7559",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "354_medium.png",
+      "label": "51-S5 7559",
+      "prediction": "51 S5 7559",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "354_high.png",
+      "label": "51-S5 7559",
+      "prediction": "F",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "354_occluded.png",
+      "label": "51-S5 7559",
+      "prediction": "51-55 559",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "355_low.png",
+      "label": "49-B1 312.15",
+      "prediction": "49-B1 312.15",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "355_medium.png",
+      "label": "49-B1 312.15",
+      "prediction": "49-01 312.15",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "355_high.png",
+      "label": "49-B1 312.15",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "355_occluded.png",
+      "label": "49-B1 312.15",
+      "prediction": "49-01 312.15",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "361_low.png",
+      "label": "54-X9 5114",
+      "prediction": "54-X9 5114",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "361_medium.png",
+      "label": "54-X9 5114",
+      "prediction": "54-X9 5114",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "361_high.png",
+      "label": "54-X9 5114",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "361_occluded.png",
+      "label": "54-X9 5114",
+      "prediction": "54-X9 54",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "381_low.png",
+      "label": "59-L1 357.03",
+      "prediction": "59-L1 357.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "381_medium.png",
+      "label": "59-L1 357.03",
+      "prediction": "59-L1 357.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "381_high.png",
+      "label": "59-L1 357.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "381_occluded.png",
+      "label": "59-L1 357.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "384_low.png",
+      "label": "60-U2 9125",
+      "prediction": "60-U2 9125",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "384_medium.png",
+      "label": "60-U2 9125",
+      "prediction": "60-U2 9125",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "384_high.png",
+      "label": "60-U2 9125",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "384_occluded.png",
+      "label": "60-U2 9125",
+      "prediction": "6C2 9125",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "388_low.png",
+      "label": "59-V2 455.06",
+      "prediction": "59-V2 455.06",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "388_medium.png",
+      "label": "59-V2 455.06",
+      "prediction": "59-V2 455.06",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "388_high.png",
+      "label": "59-V2 455.06",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "388_occluded.png",
+      "label": "59-V2 455.06",
+      "prediction": "59-V2 455.06",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "399_low.png",
+      "label": "51-K3 8796",
+      "prediction": "51-K3 8796",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "399_medium.png",
+      "label": "51-K3 8796",
+      "prediction": "51-K3 8796",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "399_high.png",
+      "label": "51-K3 8796",
+      "prediction": "51-13 8796",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "399_occluded.png",
+      "label": "51-K3 8796",
+      "prediction": "51-K3 2796",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "415_low.png",
+      "label": "59-E1 001.79",
+      "prediction": "59-E1 001.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "415_medium.png",
+      "label": "59-E1 001.79",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "415_high.png",
+      "label": "59-E1 001.79",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "415_occluded.png",
+      "label": "59-E1 001.79",
+      "prediction": "59 ET 001.79",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "444_low.png",
+      "label": "59-T1 569.87",
+      "prediction": "59-T1 569.87",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "444_medium.png",
+      "label": "59-T1 569.87",
+      "prediction": "569.87",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "444_high.png",
+      "label": "59-T1 569.87",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "444_occluded.png",
+      "label": "59-T1 569.87",
+      "prediction": "59-T1",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "449_low.png",
+      "label": "59-F1 631.86",
+      "prediction": "59-F1 631.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "449_medium.png",
+      "label": "59-F1 631.86",
+      "prediction": "59-F1 63186",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "449_high.png",
+      "label": "59-F1 631.86",
+      "prediction": "59-F1 63196",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "449_occluded.png",
+      "label": "59-F1 631.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "452_low.png",
+      "label": "59-P2 209.47",
+      "prediction": "59-P2 209.47",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "452_medium.png",
+      "label": "59-P2 209.47",
+      "prediction": "59-P2 209.47",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "452_high.png",
+      "label": "59-P2 209.47",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "452_occluded.png",
+      "label": "59-P2 209.47",
+      "prediction": "59.P7 09.47",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "454_low.png",
+      "label": "59-F1 166.92",
+      "prediction": "59-F1 166.92",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "454_medium.png",
+      "label": "59-F1 166.92",
+      "prediction": "59-F1 166.92",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "454_high.png",
+      "label": "59-F1 166.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "454_occluded.png",
+      "label": "59-F1 166.92",
+      "prediction": "2",
+      "exact_match": false,
+      "cer": 0.8889
+    },
+    {
+      "image": "459_low.png",
+      "label": "59-T1 003.81",
+      "prediction": "59-T1 003.81",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "459_medium.png",
+      "label": "59-T1 003.81",
+      "prediction": "59-T1 003.81",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "459_high.png",
+      "label": "59-T1 003.81",
+      "prediction": "59-T1 003.81",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "459_occluded.png",
+      "label": "59-T1 003.81",
+      "prediction": "SFm DAn",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "475_low.png",
+      "label": "59-C2 574.72",
+      "prediction": "59-C2 574.72",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "475_medium.png",
+      "label": "59-C2 574.72",
+      "prediction": "59-C2 57472",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "475_high.png",
+      "label": "59-C2 574.72",
+      "prediction": "59-C2 574.72",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "475_occluded.png",
+      "label": "59-C2 574.72",
+      "prediction": "59-C2 572",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "478_low.png",
+      "label": "59-V1 855.84",
+      "prediction": "59\u00b7V1 855.84",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "478_medium.png",
+      "label": "59-V1 855.84",
+      "prediction": "3-17 85584",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "478_high.png",
+      "label": "59-V1 855.84",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "478_occluded.png",
+      "label": "59-V1 855.84",
+      "prediction": "59T1 855.84",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "486_low.png",
+      "label": "59-T1 655.50",
+      "prediction": "59-T1 655.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "486_medium.png",
+      "label": "59-T1 655.50",
+      "prediction": "59-T1 655.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "486_high.png",
+      "label": "59-T1 655.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "486_occluded.png",
+      "label": "59-T1 655.50",
+      "prediction": "59-T1 655.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "490_low.png",
+      "label": "59-T1 555.00",
+      "prediction": "59-T1 555.00",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "490_medium.png",
+      "label": "59-T1 555.00",
+      "prediction": "59-T1 555.00",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "490_high.png",
+      "label": "59-T1 555.00",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "490_occluded.png",
+      "label": "59-T1 555.00",
+      "prediction": "59-T1 555P",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "493_low.png",
+      "label": "93-E1 051.19",
+      "prediction": "93-E1 051.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "493_medium.png",
+      "label": "93-E1 051.19",
+      "prediction": "93-E1 051.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "493_high.png",
+      "label": "93-E1 051.19",
+      "prediction": "93-E1 051.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "493_occluded.png",
+      "label": "93-E1 051.19",
+      "prediction": "93-E1 051.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "497_low.png",
+      "label": "59-D1 004.44",
+      "prediction": "59-D1 JC4.44",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "497_medium.png",
+      "label": "59-D1 004.44",
+      "prediction": "59-D1 UC4.44",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "497_high.png",
+      "label": "59-D1 004.44",
+      "prediction": "2E",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "497_occluded.png",
+      "label": "59-D1 004.44",
+      "prediction": "59-01",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "503_low.png",
+      "label": "59-F1 685.64",
+      "prediction": "59-F1 685.64",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "503_medium.png",
+      "label": "59-F1 685.64",
+      "prediction": "59-F1 685.64",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "503_high.png",
+      "label": "59-F1 685.64",
+      "prediction": "3a",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "503_occluded.png",
+      "label": "59-F1 685.64",
+      "prediction": "C-F1 685,64",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "504_low.png",
+      "label": "59-H1 549.86",
+      "prediction": "59-H1 549.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "504_medium.png",
+      "label": "59-H1 549.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "504_high.png",
+      "label": "59-H1 549.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "504_occluded.png",
+      "label": "59-H1 549.86",
+      "prediction": "59-H1 549.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "509_low.png",
+      "label": "59-T1 023.09",
+      "prediction": "59-T1 323.09",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "509_medium.png",
+      "label": "59-T1 023.09",
+      "prediction": "59-T1 323.09",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "509_high.png",
+      "label": "59-T1 023.09",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "509_occluded.png",
+      "label": "59-T1 023.09",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "510_low.png",
+      "label": "59-U1 517.71",
+      "prediction": "59-01 517.71",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "510_medium.png",
+      "label": "59-U1 517.71",
+      "prediction": "59-U1 517.71",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "510_high.png",
+      "label": "59-U1 517.71",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "510_occluded.png",
+      "label": "59-U1 517.71",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "512_low.png",
+      "label": "60-B6 280.32",
+      "prediction": "60-B6 280.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "512_medium.png",
+      "label": "60-B6 280.32",
+      "prediction": "60-B6 280.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "512_high.png",
+      "label": "60-B6 280.32",
+      "prediction": "50-B6 280.32",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "512_occluded.png",
+      "label": "60-B6 280.32",
+      "prediction": "60-B6 280.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "514_low.png",
+      "label": "59-D1 673.93",
+      "prediction": "59.D1 673.93",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "514_medium.png",
+      "label": "59-D1 673.93",
+      "prediction": "59:01 67393",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "514_high.png",
+      "label": "59-D1 673.93",
+      "prediction": "59-01 67393",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "514_occluded.png",
+      "label": "59-D1 673.93",
+      "prediction": "59-D1 673.93",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "517_low.png",
+      "label": "47-N9 0859",
+      "prediction": "L7-N9 0859",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "517_medium.png",
+      "label": "47-N9 0859",
+      "prediction": "L7-N9 0859",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "517_high.png",
+      "label": "47-N9 0859",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "517_occluded.png",
+      "label": "47-N9 0859",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "524_low.png",
+      "label": "54-Z2 8101",
+      "prediction": "54-22 8101",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "524_medium.png",
+      "label": "54-Z2 8101",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "524_high.png",
+      "label": "54-Z2 8101",
+      "prediction": "Cot",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "524_occluded.png",
+      "label": "54-Z2 8101",
+      "prediction": "E",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "534_low.png",
+      "label": "60-B3 345.34",
+      "prediction": "60-B3 345.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "534_medium.png",
+      "label": "60-B3 345.34",
+      "prediction": "6T-1B 34534",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "534_high.png",
+      "label": "60-B3 345.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "534_occluded.png",
+      "label": "60-B3 345.34",
+      "prediction": "60-B3 345.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "535_low.png",
+      "label": "59-B1 349.17",
+      "prediction": "59-B1 349.17",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "535_medium.png",
+      "label": "59-B1 349.17",
+      "prediction": "59-B1 349.17",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "535_high.png",
+      "label": "59-B1 349.17",
+      "prediction": "S",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "535_occluded.png",
+      "label": "59-B1 349.17",
+      "prediction": "59-81 34917",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "555_low.png",
+      "label": "86-B1 146.30",
+      "prediction": "86-B1 146.30",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "555_medium.png",
+      "label": "86-B1 146.30",
+      "prediction": "86-B1 146.30",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "555_high.png",
+      "label": "86-B1 146.30",
+      "prediction": "65-81 146.30",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "555_occluded.png",
+      "label": "86-B1 146.30",
+      "prediction": "86-B1 14630",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "557_low.png",
+      "label": "59-H1 547.92",
+      "prediction": "59-H1 54/.92",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "557_medium.png",
+      "label": "59-H1 547.92",
+      "prediction": "59-N1 54M7",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "557_high.png",
+      "label": "59-H1 547.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "557_occluded.png",
+      "label": "59-H1 547.92",
+      "prediction": "59-H7 54132",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "580_low.png",
+      "label": "59-U1 457.81",
+      "prediction": "59-U1 457.81",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "580_medium.png",
+      "label": "59-U1 457.81",
+      "prediction": "59-U1 457.81",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "580_high.png",
+      "label": "59-U1 457.81",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "580_occluded.png",
+      "label": "59-U1 457.81",
+      "prediction": "59-UT 57.81",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "582_low.png",
+      "label": "66-H6 0786",
+      "prediction": "66\u00b7H6 0786",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "582_medium.png",
+      "label": "66-H6 0786",
+      "prediction": "66 H6 0786",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "582_high.png",
+      "label": "66-H6 0786",
+      "prediction": "16 HE 0789",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "582_occluded.png",
+      "label": "66-H6 0786",
+      "prediction": "66 H6",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "588_low.png",
+      "label": "59-U1 396.19",
+      "prediction": "59.U1 396.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "588_medium.png",
+      "label": "59-U1 396.19",
+      "prediction": "59-U1 396.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "588_high.png",
+      "label": "59-U1 396.19",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "588_occluded.png",
+      "label": "59-U1 396.19",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "594_low.png",
+      "label": "59-T1 797.42",
+      "prediction": "59-T1 797.42",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "594_medium.png",
+      "label": "59-T1 797.42",
+      "prediction": "797.42",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "594_high.png",
+      "label": "59-T1 797.42",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "594_occluded.png",
+      "label": "59-T1 797.42",
+      "prediction": "59-T1 792",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "609_low.png",
+      "label": "65-X4 4850",
+      "prediction": "65-X4 4850",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "609_medium.png",
+      "label": "65-X4 4850",
+      "prediction": "E5-14 4850",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "609_high.png",
+      "label": "65-X4 4850",
+      "prediction": "65X4 2850",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "609_occluded.png",
+      "label": "65-X4 4850",
+      "prediction": "0.-X4 4850",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "611_low.png",
+      "label": "54-S5 4376",
+      "prediction": "54-55 4376",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "611_medium.png",
+      "label": "54-S5 4376",
+      "prediction": "54-55 4376",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "611_high.png",
+      "label": "54-S5 4376",
+      "prediction": "5",
+      "exact_match": false,
+      "cer": 0.875
+    },
+    {
+      "image": "611_occluded.png",
+      "label": "54-S5 4376",
+      "prediction": "544 4376",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "617_low.png",
+      "label": "59-E1 656.53",
+      "prediction": "59-E1 656.53",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "617_medium.png",
+      "label": "59-E1 656.53",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "617_high.png",
+      "label": "59-E1 656.53",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "617_occluded.png",
+      "label": "59-E1 656.53",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "625_low.png",
+      "label": "59-P1 529.34",
+      "prediction": "59-P1 529.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "625_medium.png",
+      "label": "59-P1 529.34",
+      "prediction": "59-P1 529.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "625_high.png",
+      "label": "59-P1 529.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "625_occluded.png",
+      "label": "59-P1 529.34",
+      "prediction": "529.34",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "626_low.png",
+      "label": "59-L1 531.22",
+      "prediction": "59-L1 531.22",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "626_medium.png",
+      "label": "59-L1 531.22",
+      "prediction": "59-L1 531.22",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "626_high.png",
+      "label": "59-L1 531.22",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "626_occluded.png",
+      "label": "59-L1 531.22",
+      "prediction": "59-L1 31.22",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "627_low.png",
+      "label": "59-Y1 648.31",
+      "prediction": "59-Y1 048.31",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "627_medium.png",
+      "label": "59-Y1 648.31",
+      "prediction": "MW 04831",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "627_high.png",
+      "label": "59-Y1 648.31",
+      "prediction": "59",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "627_occluded.png",
+      "label": "59-Y1 648.31",
+      "prediction": "5 ma31",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "632_low.png",
+      "label": "59-P1 479.69",
+      "prediction": "59.P1 479.69",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "632_medium.png",
+      "label": "59-P1 479.69",
+      "prediction": "59-P1 47969",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "632_high.png",
+      "label": "59-P1 479.69",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "632_occluded.png",
+      "label": "59-P1 479.69",
+      "prediction": "59-PT 47959",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "633_low.png",
+      "label": "60-B3 252.20",
+      "prediction": "60-B3 252.20",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "633_medium.png",
+      "label": "60-B3 252.20",
+      "prediction": "60-83 252.20",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "633_high.png",
+      "label": "60-B3 252.20",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "633_occluded.png",
+      "label": "60-B3 252.20",
+      "prediction": "60-83 252.20",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "638_low.png",
+      "label": "59-T1 510.02",
+      "prediction": "59-T1 510.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "638_medium.png",
+      "label": "59-T1 510.02",
+      "prediction": "59:T1 510.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "638_high.png",
+      "label": "59-T1 510.02",
+      "prediction": "50-11 51002",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "638_occluded.png",
+      "label": "59-T1 510.02",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "650_low.png",
+      "label": "60-B8 137.05",
+      "prediction": "60-B8 137.05",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "650_medium.png",
+      "label": "60-B8 137.05",
+      "prediction": "60-B8 13705",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "650_high.png",
+      "label": "60-B8 137.05",
+      "prediction": "GD-BE 13715",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "650_occluded.png",
+      "label": "60-B8 137.05",
+      "prediction": "60-B8 137.05",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "653_low.png",
+      "label": "76-U1 151.78",
+      "prediction": "76-U1 151.78",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "653_medium.png",
+      "label": "76-U1 151.78",
+      "prediction": "76-01 151.10",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "653_high.png",
+      "label": "76-U1 151.78",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "653_occluded.png",
+      "label": "76-U1 151.78",
+      "prediction": "76-01 151.78",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "668_low.png",
+      "label": "59-V1 840.31",
+      "prediction": "59-V1 840.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "668_medium.png",
+      "label": "59-V1 840.31",
+      "prediction": "59-V1 840.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "668_high.png",
+      "label": "59-V1 840.31",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "668_occluded.png",
+      "label": "59-V1 840.31",
+      "prediction": "59-V1 84021",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "674_low.png",
+      "label": "59-V1 924.11",
+      "prediction": "59-V1 924.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "674_medium.png",
+      "label": "59-V1 924.11",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "674_high.png",
+      "label": "59-V1 924.11",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "674_occluded.png",
+      "label": "59-V1 924.11",
+      "prediction": "59-V1 924.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "687_low.png",
+      "label": "77-E1 305.77",
+      "prediction": "77-51 305.77",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "687_medium.png",
+      "label": "77-E1 305.77",
+      "prediction": "77-F1 305.77",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "687_high.png",
+      "label": "77-E1 305.77",
+      "prediction": "77E1 305.77",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "687_occluded.png",
+      "label": "77-E1 305.77",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "700_low.png",
+      "label": "59-H1 354.60",
+      "prediction": "59-H1 254.60",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "700_medium.png",
+      "label": "59-H1 354.60",
+      "prediction": "59-H 254.60",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "700_high.png",
+      "label": "59-H1 354.60",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "700_occluded.png",
+      "label": "59-H1 354.60",
+      "prediction": "LOW 154.60",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "707_low.png",
+      "label": "54-V8 1990",
+      "prediction": "54-V8 1990",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "707_medium.png",
+      "label": "54-V8 1990",
+      "prediction": "54-V8 1990",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "707_high.png",
+      "label": "54-V8 1990",
+      "prediction": "54-V8 1990",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "707_occluded.png",
+      "label": "54-V8 1990",
+      "prediction": "1990",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "709_low.png",
+      "label": "59-U1 650.72",
+      "prediction": "59-U1 650.72",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "709_medium.png",
+      "label": "59-U1 650.72",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "709_high.png",
+      "label": "59-U1 650.72",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "709_occluded.png",
+      "label": "59-U1 650.72",
+      "prediction": "650.7",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "716_low.png",
+      "label": "59-H1 605.91",
+      "prediction": "59-H1 605.91",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "716_medium.png",
+      "label": "59-H1 605.91",
+      "prediction": "59-H1 605.91",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "716_high.png",
+      "label": "59-H1 605.91",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "716_occluded.png",
+      "label": "59-H1 605.91",
+      "prediction": "59 605y",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "739_low.png",
+      "label": "59-S2 544.55",
+      "prediction": "59.S2 544.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "739_medium.png",
+      "label": "59-S2 544.55",
+      "prediction": "59.S2 544.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "739_high.png",
+      "label": "59-S2 544.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "739_occluded.png",
+      "label": "59-S2 544.55",
+      "prediction": "J9532 544.55",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "740_low.png",
+      "label": "59-C2 048.37",
+      "prediction": "59-C2 048.37",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "740_medium.png",
+      "label": "59-C2 048.37",
+      "prediction": "59-C2 048.37",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "740_high.png",
+      "label": "59-C2 048.37",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "740_occluded.png",
+      "label": "59-C2 048.37",
+      "prediction": "59-C2 04..37",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "741_low.png",
+      "label": "59-F1 188.14",
+      "prediction": "59\u00b7F1 188.14",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "741_medium.png",
+      "label": "59-F1 188.14",
+      "prediction": "59\u00b7F1 188.14",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "741_high.png",
+      "label": "59-F1 188.14",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "741_occluded.png",
+      "label": "59-F1 188.14",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "761_low.png",
+      "label": "59-G1 989.07",
+      "prediction": "59-G1 989.07",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "761_medium.png",
+      "label": "59-G1 989.07",
+      "prediction": "59-61 989.07",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "761_high.png",
+      "label": "59-G1 989.07",
+      "prediction": "59-61 989.07",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "761_occluded.png",
+      "label": "59-G1 989.07",
+      "prediction": "59-01 89.07",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "762_low.png",
+      "label": "63-H4 0538",
+      "prediction": "63-H4 0538",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "762_medium.png",
+      "label": "63-H4 0538",
+      "prediction": "63-H4 0538",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "762_high.png",
+      "label": "63-H4 0538",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "762_occluded.png",
+      "label": "63-H4 0538",
+      "prediction": "634 U5T",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "767_low.png",
+      "label": "59-E1 587.20",
+      "prediction": "59-E1 587.20",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "767_medium.png",
+      "label": "59-E1 587.20",
+      "prediction": "59-E1 587.20",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "767_high.png",
+      "label": "59-E1 587.20",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "767_occluded.png",
+      "label": "59-E1 587.20",
+      "prediction": "59-E2 58720",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "776_low.png",
+      "label": "52-F7 3840",
+      "prediction": "52-F7 3840",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "776_medium.png",
+      "label": "52-F7 3840",
+      "prediction": "52-F7 3840",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "776_high.png",
+      "label": "52-F7 3840",
+      "prediction": "n",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "776_occluded.png",
+      "label": "52-F7 3840",
+      "prediction": "52-F7 38/0",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "782_low.png",
+      "label": "59-T1 354.15",
+      "prediction": "59-T1 354.15",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "782_medium.png",
+      "label": "59-T1 354.15",
+      "prediction": "59-71 35475",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "782_high.png",
+      "label": "59-T1 354.15",
+      "prediction": "59 T1 35415",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "782_occluded.png",
+      "label": "59-T1 354.15",
+      "prediction": "58-T0 35415",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "791_low.png",
+      "label": "75-F1 298.30",
+      "prediction": "75-F1 298.30",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "791_medium.png",
+      "label": "75-F1 298.30",
+      "prediction": "75-F1 298.30",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "791_high.png",
+      "label": "75-F1 298.30",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "791_occluded.png",
+      "label": "75-F1 298.30",
+      "prediction": "75.51 295.30",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "798_low.png",
+      "label": "59-T1 656.71",
+      "prediction": "59-T1 656.71",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "798_medium.png",
+      "label": "59-T1 656.71",
+      "prediction": "59-T1 656.71",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "798_high.png",
+      "label": "59-T1 656.71",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "798_occluded.png",
+      "label": "59-T1 656.71",
+      "prediction": "59-11 656.77",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "801_low.png",
+      "label": "59-P1 334.58",
+      "prediction": "59-P1 334.58",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "801_medium.png",
+      "label": "59-P1 334.58",
+      "prediction": "934.58",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "801_high.png",
+      "label": "59-P1 334.58",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "801_occluded.png",
+      "label": "59-P1 334.58",
+      "prediction": "334.58",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "803_low.png",
+      "label": "56-P2 5963",
+      "prediction": "56-P2 5963",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "803_medium.png",
+      "label": "56-P2 5963",
+      "prediction": "56-PZ 5963",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "803_high.png",
+      "label": "56-P2 5963",
+      "prediction": "WM",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "803_occluded.png",
+      "label": "56-P2 5963",
+      "prediction": "5u+2 5963",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "804_low.png",
+      "label": "51-F6 9090",
+      "prediction": "51-F6 9090",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "804_medium.png",
+      "label": "51-F6 9090",
+      "prediction": "51-F6 S090",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "804_high.png",
+      "label": "51-F6 9090",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "804_occluded.png",
+      "label": "51-F6 9090",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "847_low.png",
+      "label": "60-B2 063.70",
+      "prediction": "60-B2 063.70",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "847_medium.png",
+      "label": "60-B2 063.70",
+      "prediction": "60-B2 063.70",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "847_high.png",
+      "label": "60-B2 063.70",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "847_occluded.png",
+      "label": "60-B2 063.70",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "856_low.png",
+      "label": "59-L2 2371",
+      "prediction": "59-L2 237.1.",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "856_medium.png",
+      "label": "59-L2 2371",
+      "prediction": "59-1.2 23717",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "856_high.png",
+      "label": "59-L2 2371",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "856_occluded.png",
+      "label": "59-L2 2371",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "868_low.png",
+      "label": "59-L2 275.60",
+      "prediction": "59-L2 275.60",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "868_medium.png",
+      "label": "59-L2 275.60",
+      "prediction": "59-L2 275.60",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "868_high.png",
+      "label": "59-L2 275.60",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "868_occluded.png",
+      "label": "59-L2 275.60",
+      "prediction": "59.L2 275.60",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "880_low.png",
+      "label": "59-L2 139.38",
+      "prediction": "59-L2 139.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "880_medium.png",
+      "label": "59-L2 139.38",
+      "prediction": "59-12 13936",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "880_high.png",
+      "label": "59-L2 139.38",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "880_occluded.png",
+      "label": "59-L2 139.38",
+      "prediction": "139.38",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "911_low.png",
+      "label": "54-F1 6743",
+      "prediction": "54-F1 6743",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "911_medium.png",
+      "label": "54-F1 6743",
+      "prediction": "54-F1 6743",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "911_high.png",
+      "label": "54-F1 6743",
+      "prediction": "54-F1 6743",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "911_occluded.png",
+      "label": "54-F1 6743",
+      "prediction": "54-F1 6747",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "914_low.png",
+      "label": "54-L4 2110",
+      "prediction": "54-L4 2110",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "914_medium.png",
+      "label": "54-L4 2110",
+      "prediction": "5-14 2110",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "914_high.png",
+      "label": "54-L4 2110",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "914_occluded.png",
+      "label": "54-L4 2110",
+      "prediction": "54-L4 21T",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "949_low.png",
+      "label": "54-S1 6312",
+      "prediction": "54.S1 6317",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "949_medium.png",
+      "label": "54-S1 6312",
+      "prediction": "6317",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "949_high.png",
+      "label": "54-S1 6312",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "949_occluded.png",
+      "label": "54-S1 6312",
+      "prediction": "54-S1 5312",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "951_low.png",
+      "label": "59-C1 471.67",
+      "prediction": "59-C1",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "951_medium.png",
+      "label": "59-C1 471.67",
+      "prediction": "59-C1 47157",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "951_high.png",
+      "label": "59-C1 471.67",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "951_occluded.png",
+      "label": "59-C1 471.67",
+      "prediction": "59-",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "955_low.png",
+      "label": "59-F1 201.58",
+      "prediction": "59-F1 201.58",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "955_medium.png",
+      "label": "59-F1 201.58",
+      "prediction": "59-F1 201.58",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "955_high.png",
+      "label": "59-F1 201.58",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "955_occluded.png",
+      "label": "59-F1 201.58",
+      "prediction": "59-F1 1.58",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "959_low.png",
+      "label": "51-Y6 7665",
+      "prediction": "51-Y6 7665",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "959_medium.png",
+      "label": "51-Y6 7665",
+      "prediction": "51-Y6 7665",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "959_high.png",
+      "label": "51-Y6 7665",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "959_occluded.png",
+      "label": "51-Y6 7665",
+      "prediction": "C51-Y6 795",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "960_low.png",
+      "label": "52-H4 0234",
+      "prediction": "52-H4 0234",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "960_medium.png",
+      "label": "52-H4 0234",
+      "prediction": "52-H4 0234",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "960_high.png",
+      "label": "52-H4 0234",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "960_occluded.png",
+      "label": "52-H4 0234",
+      "prediction": "52-H4 0234",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "970_low.png",
+      "label": "56-P1 9074",
+      "prediction": "56-P1 9074",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "970_medium.png",
+      "label": "56-P1 9074",
+      "prediction": "56-P1 9074",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "970_high.png",
+      "label": "56-P1 9074",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "970_occluded.png",
+      "label": "56-P1 9074",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "977_low.png",
+      "label": "43-H1 6799",
+      "prediction": "23-HT 6799",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "977_medium.png",
+      "label": "43-H1 6799",
+      "prediction": "43-HT 6799",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "977_high.png",
+      "label": "43-H1 6799",
+      "prediction": "33-HU 6799",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "977_occluded.png",
+      "label": "43-H1 6799",
+      "prediction": "C3-HT 6J",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "978_low.png",
+      "label": "54-T4 6647",
+      "prediction": "54-T4 6647",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "978_medium.png",
+      "label": "54-T4 6647",
+      "prediction": "5L-T4 6647",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "978_high.png",
+      "label": "54-T4 6647",
+      "prediction": "5L-TL 6547",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "978_occluded.png",
+      "label": "54-T4 6647",
+      "prediction": "5L-TA 6657",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "982_low.png",
+      "label": "59-L1 138.26",
+      "prediction": "59-L1 138.26",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "982_medium.png",
+      "label": "59-L1 138.26",
+      "prediction": "59-LT 138.26",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "982_high.png",
+      "label": "59-L1 138.26",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "982_occluded.png",
+      "label": "59-L1 138.26",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "983_low.png",
+      "label": "68-X1 210.02",
+      "prediction": "68-X1 210.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "983_medium.png",
+      "label": "68-X1 210.02",
+      "prediction": "68-X1 210,02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "983_high.png",
+      "label": "68-X1 210.02",
+      "prediction": "6-17",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "983_occluded.png",
+      "label": "68-X1 210.02",
+      "prediction": "68-X1 210.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "984_low.png",
+      "label": "94-K1 002.02",
+      "prediction": "94-K1 002.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "984_medium.png",
+      "label": "94-K1 002.02",
+      "prediction": "9H0 U12.12",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "984_high.png",
+      "label": "94-K1 002.02",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "984_occluded.png",
+      "label": "94-K1 002.02",
+      "prediction": "002.02",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "995_low.png",
+      "label": "59-U1 703.92",
+      "prediction": "59-U1 703.92",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "995_medium.png",
+      "label": "59-U1 703.92",
+      "prediction": "59-01 703.92",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "995_high.png",
+      "label": "59-U1 703.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "995_occluded.png",
+      "label": "59-U1 703.92",
+      "prediction": "59-U1 703",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1027_low.png",
+      "label": "51-H4 8354",
+      "prediction": "51-H4 8354",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1027_medium.png",
+      "label": "51-H4 8354",
+      "prediction": "51-H4 8354",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1027_high.png",
+      "label": "51-H4 8354",
+      "prediction": "51-H4 0354",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1027_occluded.png",
+      "label": "51-H4 8354",
+      "prediction": "ST-H4 354",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "1034_low.png",
+      "label": "76-U1 139.38",
+      "prediction": "76-U1 139.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1034_medium.png",
+      "label": "76-U1 139.38",
+      "prediction": "13030",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1034_high.png",
+      "label": "76-U1 139.38",
+      "prediction": "76-01 139.30",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1034_occluded.png",
+      "label": "76-U1 139.38",
+      "prediction": "76-U1 139.50",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1039_low.png",
+      "label": "59-K1 438.40",
+      "prediction": "59-K1 438.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1039_medium.png",
+      "label": "59-K1 438.40",
+      "prediction": "50 S040",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1039_high.png",
+      "label": "59-K1 438.40",
+      "prediction": "30",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "1039_occluded.png",
+      "label": "59-K1 438.40",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1062_low.png",
+      "label": "59-U1 843.66",
+      "prediction": "59-U1 843.66",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1062_medium.png",
+      "label": "59-U1 843.66",
+      "prediction": "59-U1 843.66",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1062_high.png",
+      "label": "59-U1 843.66",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1062_occluded.png",
+      "label": "59-U1 843.66",
+      "prediction": "59-0 8LS",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1065_low.png",
+      "label": "29-D1 635.16",
+      "prediction": "29-D1 635.16",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1065_medium.png",
+      "label": "29-D1 635.16",
+      "prediction": "29-D1 635.16",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1065_high.png",
+      "label": "29-D1 635.16",
+      "prediction": "29-01 635.16",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1065_occluded.png",
+      "label": "29-D1 635.16",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1069_low.png",
+      "label": "47-R1 2443",
+      "prediction": "47-R1 2443",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1069_medium.png",
+      "label": "47-R1 2443",
+      "prediction": "7443",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "1069_high.png",
+      "label": "47-R1 2443",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1069_occluded.png",
+      "label": "47-R1 2443",
+      "prediction": "L7-R",
+      "exact_match": false,
+      "cer": 0.75
+    },
+    {
+      "image": "1071_low.png",
+      "label": "59-E1 328.86",
+      "prediction": "59-E1 328.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1071_medium.png",
+      "label": "59-E1 328.86",
+      "prediction": "59-E1 328.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1071_high.png",
+      "label": "59-E1 328.86",
+      "prediction": "59-E1 328.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1071_occluded.png",
+      "label": "59-E1 328.86",
+      "prediction": "59-F1 0.01",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1073_low.png",
+      "label": "59-S2 323.86",
+      "prediction": "59 S2 323.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1073_medium.png",
+      "label": "59-S2 323.86",
+      "prediction": "552 32386",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1073_high.png",
+      "label": "59-S2 323.86",
+      "prediction": "02380",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1073_occluded.png",
+      "label": "59-S2 323.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1110_low.png",
+      "label": "54-P8 3069",
+      "prediction": "54-P8 3069",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1110_medium.png",
+      "label": "54-P8 3069",
+      "prediction": "54-P8 3069",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1110_high.png",
+      "label": "54-P8 3069",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1110_occluded.png",
+      "label": "54-P8 3069",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1118_low.png",
+      "label": "51-R4 2488",
+      "prediction": "51-R4 2488",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1118_medium.png",
+      "label": "51-R4 2488",
+      "prediction": "51-R4 2488",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1118_high.png",
+      "label": "51-R4 2488",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1118_occluded.png",
+      "label": "51-R4 2488",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1153_low.png",
+      "label": "51-L3 4827",
+      "prediction": "51-L3 4827",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1153_medium.png",
+      "label": "51-L3 4827",
+      "prediction": "S1-13 4827",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1153_high.png",
+      "label": "51-L3 4827",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1153_occluded.png",
+      "label": "51-L3 4827",
+      "prediction": "51-L3 4827",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1156_low.png",
+      "label": "59-U1 092.78",
+      "prediction": "59-U1 092.78",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1156_medium.png",
+      "label": "59-U1 092.78",
+      "prediction": "59-U1 09270",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1156_high.png",
+      "label": "59-U1 092.78",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1156_occluded.png",
+      "label": "59-U1 092.78",
+      "prediction": "092.",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1164_low.png",
+      "label": "54-R3 0018",
+      "prediction": "54-R3 0018",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1164_medium.png",
+      "label": "54-R3 0018",
+      "prediction": "54-R3 0018",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1164_high.png",
+      "label": "54-R3 0018",
+      "prediction": "54-R3 0018",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1164_occluded.png",
+      "label": "54-R3 0018",
+      "prediction": "54\u00b7R3 178",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "1168_low.png",
+      "label": "59-H1 609.19",
+      "prediction": "59-H7 609.19",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1168_medium.png",
+      "label": "59-H1 609.19",
+      "prediction": "59-H1 609.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1168_high.png",
+      "label": "59-H1 609.19",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1168_occluded.png",
+      "label": "59-H1 609.19",
+      "prediction": "59-H1 09.19",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1197_low.png",
+      "label": "60-B2 369.12",
+      "prediction": "60-B2 369.12",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1197_medium.png",
+      "label": "60-B2 369.12",
+      "prediction": "60-B2 369.12",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1197_high.png",
+      "label": "60-B2 369.12",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1197_occluded.png",
+      "label": "60-B2 369.12",
+      "prediction": "60-E2 069.12",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1213_low.png",
+      "label": "78-N2 5941",
+      "prediction": "78-N2 5941",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1213_medium.png",
+      "label": "78-N2 5941",
+      "prediction": "78-N2 5941",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1213_high.png",
+      "label": "78-N2 5941",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1213_occluded.png",
+      "label": "78-N2 5941",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1221_low.png",
+      "label": "54-U4 6484",
+      "prediction": "54-U4 6484",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1221_medium.png",
+      "label": "54-U4 6484",
+      "prediction": "54-U4 6484",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1221_high.png",
+      "label": "54-U4 6484",
+      "prediction": "54-04 6484",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1221_occluded.png",
+      "label": "54-U4 6484",
+      "prediction": "-U4 6484",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1227_low.png",
+      "label": "59-S2 119.98",
+      "prediction": "59-S2 119.98",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1227_medium.png",
+      "label": "59-S2 119.98",
+      "prediction": "59-S2 119.98",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1227_high.png",
+      "label": "59-S2 119.98",
+      "prediction": "I",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1227_occluded.png",
+      "label": "59-S2 119.98",
+      "prediction": "ST",
+      "exact_match": false,
+      "cer": 0.8889
+    },
+    {
+      "image": "1228_low.png",
+      "label": "83-C1 222.34",
+      "prediction": "83-C1 222.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1228_medium.png",
+      "label": "83-C1 222.34",
+      "prediction": "83-C1 222.34",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1228_high.png",
+      "label": "83-C1 222.34",
+      "prediction": "83-C1 22234",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1228_occluded.png",
+      "label": "83-C1 222.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1246_low.png",
+      "label": "59-F1 184.61",
+      "prediction": "59\u00b7F1 184.61",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1246_medium.png",
+      "label": "59-F1 184.61",
+      "prediction": "59 F1 184.61",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1246_high.png",
+      "label": "59-F1 184.61",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1246_occluded.png",
+      "label": "59-F1 184.61",
+      "prediction": "59-E1 184",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1251_low.png",
+      "label": "59-T1 289.66",
+      "prediction": "59 T1 289.66",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1251_medium.png",
+      "label": "59-T1 289.66",
+      "prediction": "046",
+      "exact_match": false,
+      "cer": 0.8889
+    },
+    {
+      "image": "1251_high.png",
+      "label": "59-T1 289.66",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1251_occluded.png",
+      "label": "59-T1 289.66",
+      "prediction": "59-T1",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1252_low.png",
+      "label": "65-U2 4787",
+      "prediction": "65-U2 4787",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1252_medium.png",
+      "label": "65-U2 4787",
+      "prediction": "65-U2 4787",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1252_high.png",
+      "label": "65-U2 4787",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1252_occluded.png",
+      "label": "65-U2 4787",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1258_low.png",
+      "label": "83-P1 996.96",
+      "prediction": "83-P1 996.96",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1258_medium.png",
+      "label": "83-P1 996.96",
+      "prediction": "83-P1 996.96",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1258_high.png",
+      "label": "83-P1 996.96",
+      "prediction": "996.96",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1258_occluded.png",
+      "label": "83-P1 996.96",
+      "prediction": "83-P1 996.9u",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1260_low.png",
+      "label": "59-D2 064.28",
+      "prediction": "59-D2 064.28",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1260_medium.png",
+      "label": "59-D2 064.28",
+      "prediction": "59-02 06420",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1260_high.png",
+      "label": "59-D2 064.28",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1260_occluded.png",
+      "label": "59-D2 064.28",
+      "prediction": "59-D.2 64.28",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1278_low.png",
+      "label": "55-X8 2215",
+      "prediction": "55-X8 2215",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1278_medium.png",
+      "label": "55-X8 2215",
+      "prediction": "55-X8 2215",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1278_high.png",
+      "label": "55-X8 2215",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1278_occluded.png",
+      "label": "55-X8 2215",
+      "prediction": "55-X8 2215",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1280_low.png",
+      "label": "60-B1 040.34",
+      "prediction": "60-81 040.34",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1280_medium.png",
+      "label": "60-B1 040.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1280_high.png",
+      "label": "60-B1 040.34",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1280_occluded.png",
+      "label": "60-B1 040.34",
+      "prediction": "60 040",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1281_low.png",
+      "label": "47-N6 9618",
+      "prediction": "47-N6 9618",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1281_medium.png",
+      "label": "47-N6 9618",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1281_high.png",
+      "label": "47-N6 9618",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1281_occluded.png",
+      "label": "47-N6 9618",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1289_low.png",
+      "label": "76-K3 3694",
+      "prediction": "76-K3 3694",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1289_medium.png",
+      "label": "76-K3 3694",
+      "prediction": "76-K3 3694",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1289_high.png",
+      "label": "76-K3 3694",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1289_occluded.png",
+      "label": "76-K3 3694",
+      "prediction": "76- 36",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "1294_low.png",
+      "label": "59-P1 871.49",
+      "prediction": "59-P1 871.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1294_medium.png",
+      "label": "59-P1 871.49",
+      "prediction": "59-P7 87149",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1294_high.png",
+      "label": "59-P1 871.49",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1294_occluded.png",
+      "label": "59-P1 871.49",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1295_low.png",
+      "label": "77-X6 9544",
+      "prediction": "77-X6 9544",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1295_medium.png",
+      "label": "77-X6 9544",
+      "prediction": "77-X6 9544",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1295_high.png",
+      "label": "77-X6 9544",
+      "prediction": "9544",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "1295_occluded.png",
+      "label": "77-X6 9544",
+      "prediction": "X6 19544",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "1302_low.png",
+      "label": "59-C2 456.33",
+      "prediction": "59-C2 662",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1302_medium.png",
+      "label": "59-C2 456.33",
+      "prediction": "59-C2 65.33",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1302_high.png",
+      "label": "59-C2 456.33",
+      "prediction": "5412 CET",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "1302_occluded.png",
+      "label": "59-C2 456.33",
+      "prediction": "59",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "1311_low.png",
+      "label": "51-F9 1341",
+      "prediction": "51-F9 1341",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1311_medium.png",
+      "label": "51-F9 1341",
+      "prediction": "51-F9 1341",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1311_high.png",
+      "label": "51-F9 1341",
+      "prediction": "0",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1311_occluded.png",
+      "label": "51-F9 1341",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1316_low.png",
+      "label": "59-F1 123.29",
+      "prediction": "59-F1 123.29",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1316_medium.png",
+      "label": "59-F1 123.29",
+      "prediction": "59-F1 123.29",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1316_high.png",
+      "label": "59-F1 123.29",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1316_occluded.png",
+      "label": "59-F1 123.29",
+      "prediction": "59F1",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1322_low.png",
+      "label": "59-P1 972.55",
+      "prediction": "59-P1 972.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1322_medium.png",
+      "label": "59-P1 972.55",
+      "prediction": "59-P1 972.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1322_high.png",
+      "label": "59-P1 972.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1322_occluded.png",
+      "label": "59-P1 972.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1335_low.png",
+      "label": "59-D1 202.55",
+      "prediction": "59-D1 202.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1335_medium.png",
+      "label": "59-D1 202.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1335_high.png",
+      "label": "59-D1 202.55",
+      "prediction": "59-D1 02.55",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1335_occluded.png",
+      "label": "59-D1 202.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1340_low.png",
+      "label": "51-U7 4598",
+      "prediction": "51-U7 4598",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1340_medium.png",
+      "label": "51-U7 4598",
+      "prediction": "51-U7 4598",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1340_high.png",
+      "label": "51-U7 4598",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1340_occluded.png",
+      "label": "51-U7 4598",
+      "prediction": "51-U7 98",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1343_low.png",
+      "label": "51-L7 4255",
+      "prediction": "51\u00b7L7 4255",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1343_medium.png",
+      "label": "51-L7 4255",
+      "prediction": "51 L7 4255",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1343_high.png",
+      "label": "51-L7 4255",
+      "prediction": "5107 4255",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1343_occluded.png",
+      "label": "51-L7 4255",
+      "prediction": "51-L7 4255",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1367_low.png",
+      "label": "59-VA 008.43",
+      "prediction": "59-VA 008.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1367_medium.png",
+      "label": "59-VA 008.43",
+      "prediction": "59-VA 008.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1367_high.png",
+      "label": "59-VA 008.43",
+      "prediction": "TORLE",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1367_occluded.png",
+      "label": "59-VA 008.43",
+      "prediction": "59-VA 008",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1368_low.png",
+      "label": "71-F5 2321",
+      "prediction": "71-F5 2321",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1368_medium.png",
+      "label": "71-F5 2321",
+      "prediction": "71-F5 2321",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1368_high.png",
+      "label": "71-F5 2321",
+      "prediction": "7115 2721",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1368_occluded.png",
+      "label": "71-F5 2321",
+      "prediction": "2321",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "1397_low.png",
+      "label": "59-S1 957.62",
+      "prediction": "59-S1 957.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1397_medium.png",
+      "label": "59-S1 957.62",
+      "prediction": "59-S1 957.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1397_high.png",
+      "label": "59-S1 957.62",
+      "prediction": "54-51 95762",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1397_occluded.png",
+      "label": "59-S1 957.62",
+      "prediction": "5S1 957.62",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1398_low.png",
+      "label": "63-B7 033.23",
+      "prediction": "63-B7 U33.23",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1398_medium.png",
+      "label": "63-B7 033.23",
+      "prediction": "63-87 133.23",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1398_high.png",
+      "label": "63-B7 033.23",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1398_occluded.png",
+      "label": "63-B7 033.23",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1401_low.png",
+      "label": "59-D1 088.61",
+      "prediction": "59.01 088.61",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1401_medium.png",
+      "label": "59-D1 088.61",
+      "prediction": "33-07 06861",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1401_high.png",
+      "label": "59-D1 088.61",
+      "prediction": "59 01 08861",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1401_occluded.png",
+      "label": "59-D1 088.61",
+      "prediction": "59-07 CT61",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1413_low.png",
+      "label": "59-Y2 767.96",
+      "prediction": "59-Y2 767.96",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1413_medium.png",
+      "label": "59-Y2 767.96",
+      "prediction": "59-Y2 767.96",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1413_high.png",
+      "label": "59-Y2 767.96",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1413_occluded.png",
+      "label": "59-Y2 767.96",
+      "prediction": "59-12",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1427_low.png",
+      "label": "59-D1 782.62",
+      "prediction": "59-D1 782.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1427_medium.png",
+      "label": "59-D1 782.62",
+      "prediction": "59-01 782.62",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1427_high.png",
+      "label": "59-D1 782.62",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1427_occluded.png",
+      "label": "59-D1 782.62",
+      "prediction": "59-D7 782.62",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1433_low.png",
+      "label": "50-KA 5535",
+      "prediction": "50XA 5535",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1433_medium.png",
+      "label": "50-KA 5535",
+      "prediction": "50XA 535",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1433_high.png",
+      "label": "50-KA 5535",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1433_occluded.png",
+      "label": "50-KA 5535",
+      "prediction": "E",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1434_low.png",
+      "label": "55-P6 7093",
+      "prediction": "55-P6 7093",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1434_medium.png",
+      "label": "55-P6 7093",
+      "prediction": "55-P6 7093",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1434_high.png",
+      "label": "55-P6 7093",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1434_occluded.png",
+      "label": "55-P6 7093",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1436_low.png",
+      "label": "59-X2 361.67",
+      "prediction": "59.X2 361.67",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1436_medium.png",
+      "label": "59-X2 361.67",
+      "prediction": "59 X2 361.67",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1436_high.png",
+      "label": "59-X2 361.67",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1436_occluded.png",
+      "label": "59-X2 361.67",
+      "prediction": "361.67",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1441_low.png",
+      "label": "51-R3 0737",
+      "prediction": "51-K 0737",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1441_medium.png",
+      "label": "51-R3 0737",
+      "prediction": "51-R3 0737",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1441_high.png",
+      "label": "51-R3 0737",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1441_occluded.png",
+      "label": "51-R3 0737",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1474_low.png",
+      "label": "79-Z1 101.84",
+      "prediction": "79-71 101.84",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1474_medium.png",
+      "label": "79-Z1 101.84",
+      "prediction": "79-71 101.84",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1474_high.png",
+      "label": "79-Z1 101.84",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1474_occluded.png",
+      "label": "79-Z1 101.84",
+      "prediction": "79-21",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1476_low.png",
+      "label": "59-V2 187.44",
+      "prediction": "59-V2 187.44",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1476_medium.png",
+      "label": "59-V2 187.44",
+      "prediction": "59-V2 18744",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1476_high.png",
+      "label": "59-V2 187.44",
+      "prediction": "59-V2 18744",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1476_occluded.png",
+      "label": "59-V2 187.44",
+      "prediction": "59-V2 187.2",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1479_low.png",
+      "label": "59-T1 202.43",
+      "prediction": "59-T1 202.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1479_medium.png",
+      "label": "59-T1 202.43",
+      "prediction": "59-T1 202.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1479_high.png",
+      "label": "59-T1 202.43",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1479_occluded.png",
+      "label": "59-T1 202.43",
+      "prediction": "59-T1 202.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1494_low.png",
+      "label": "59-U1 777.92",
+      "prediction": "50-111 777.92",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1494_medium.png",
+      "label": "59-U1 777.92",
+      "prediction": "777.92",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1494_high.png",
+      "label": "59-U1 777.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1494_occluded.png",
+      "label": "59-U1 777.92",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1511_low.png",
+      "label": "59-G1 858.20",
+      "prediction": "59-G1 858.20",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1511_medium.png",
+      "label": "59-G1 858.20",
+      "prediction": "59-G1 858.20",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1511_high.png",
+      "label": "59-G1 858.20",
+      "prediction": "59-6 85..20",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1511_occluded.png",
+      "label": "59-G1 858.20",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1514_low.png",
+      "label": "53-Z2 3502",
+      "prediction": "53-22 3502",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1514_medium.png",
+      "label": "53-Z2 3502",
+      "prediction": "53-72 3502",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1514_high.png",
+      "label": "53-Z2 3502",
+      "prediction": "63-12 3502",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1514_occluded.png",
+      "label": "53-Z2 3502",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1517_low.png",
+      "label": "71-C2 321.49",
+      "prediction": "71-C2 321.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1517_medium.png",
+      "label": "71-C2 321.49",
+      "prediction": "71-C2 321.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1517_high.png",
+      "label": "71-C2 321.49",
+      "prediction": "71-C2 321.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1517_occluded.png",
+      "label": "71-C2 321.49",
+      "prediction": "1-C2 321.49",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1522_low.png",
+      "label": "59-H1 0571",
+      "prediction": "59-H1 057.14",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1522_medium.png",
+      "label": "59-H1 0571",
+      "prediction": "59-H1 0571",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1522_high.png",
+      "label": "59-H1 0571",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1522_occluded.png",
+      "label": "59-H1 0571",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1527_low.png",
+      "label": "59-T1 014.39",
+      "prediction": "59-T1 014.39",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1527_medium.png",
+      "label": "59-T1 014.39",
+      "prediction": "59-T1 014.39",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1527_high.png",
+      "label": "59-T1 014.39",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1527_occluded.png",
+      "label": "59-T1 014.39",
+      "prediction": "59-T1",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1532_low.png",
+      "label": "79-N1 605.29",
+      "prediction": "70-N1 605.29",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1532_medium.png",
+      "label": "79-N1 605.29",
+      "prediction": "60529",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1532_high.png",
+      "label": "79-N1 605.29",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1532_occluded.png",
+      "label": "79-N1 605.29",
+      "prediction": "605.29",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1543_low.png",
+      "label": "51-L3 3664",
+      "prediction": "51-L3 3664",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1543_medium.png",
+      "label": "51-L3 3664",
+      "prediction": "5113 3664",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1543_high.png",
+      "label": "51-L3 3664",
+      "prediction": "STU3 3660",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "1543_occluded.png",
+      "label": "51-L3 3664",
+      "prediction": "3684",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "1544_low.png",
+      "label": "51-U8 3423",
+      "prediction": "-51-U8 3423",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1544_medium.png",
+      "label": "51-U8 3423",
+      "prediction": "51-U8 3423",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1544_high.png",
+      "label": "51-U8 3423",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1544_occluded.png",
+      "label": "51-U8 3423",
+      "prediction": ".23",
+      "exact_match": false,
+      "cer": 0.75
+    },
+    {
+      "image": "1559_low.png",
+      "label": "50-T2 7594",
+      "prediction": "50-T2 75.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1559_medium.png",
+      "label": "50-T2 7594",
+      "prediction": "50-T2 7594",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1559_high.png",
+      "label": "50-T2 7594",
+      "prediction": "50-T2 7594",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1559_occluded.png",
+      "label": "50-T2 7594",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1560_low.png",
+      "label": "92-L8 7156",
+      "prediction": "92-L8 7156",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1560_medium.png",
+      "label": "92-L8 7156",
+      "prediction": "92-L8 7156",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1560_high.png",
+      "label": "92-L8 7156",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1560_occluded.png",
+      "label": "92-L8 7156",
+      "prediction": "92-L8 7150",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1564_low.png",
+      "label": "49-L1 012.41",
+      "prediction": "49-L1 012.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1564_medium.png",
+      "label": "49-L1 012.41",
+      "prediction": "49-L1 012.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1564_high.png",
+      "label": "49-L1 012.41",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1564_occluded.png",
+      "label": "49-L1 012.41",
+      "prediction": "49-L1 01241",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1574_low.png",
+      "label": "67-C1 053.55",
+      "prediction": "67-C1 053.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1574_medium.png",
+      "label": "67-C1 053.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1574_high.png",
+      "label": "67-C1 053.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1574_occluded.png",
+      "label": "67-C1 053.55",
+      "prediction": "67-C1 053.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1575_low.png",
+      "label": "59-S1 418.03",
+      "prediction": "59-S1 418.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1575_medium.png",
+      "label": "59-S1 418.03",
+      "prediction": "59-51 418.03",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1575_high.png",
+      "label": "59-S1 418.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1575_occluded.png",
+      "label": "59-S1 418.03",
+      "prediction": "18.03",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1576_low.png",
+      "label": "59-L1 591.50",
+      "prediction": "59-L1 59150",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1576_medium.png",
+      "label": "59-L1 591.50",
+      "prediction": "59-L1 591.50",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1576_high.png",
+      "label": "59-L1 591.50",
+      "prediction": "5141 55150",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1576_occluded.png",
+      "label": "59-L1 591.50",
+      "prediction": "59-L1 59150",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1578_low.png",
+      "label": "60-F1 404.94",
+      "prediction": "60-F1 404.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1578_medium.png",
+      "label": "60-F1 404.94",
+      "prediction": "60-F1 404.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1578_high.png",
+      "label": "60-F1 404.94",
+      "prediction": "6O-E1 COL9A",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1578_occluded.png",
+      "label": "60-F1 404.94",
+      "prediction": "FD-F1",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "1583_low.png",
+      "label": "59-S1 746.13",
+      "prediction": "59-S1 746.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1583_medium.png",
+      "label": "59-S1 746.13",
+      "prediction": "59-S1 746.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1583_high.png",
+      "label": "59-S1 746.13",
+      "prediction": "59-51",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1583_occluded.png",
+      "label": "59-S1 746.13",
+      "prediction": "59 T5.11",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1588_low.png",
+      "label": "59-D1 502.16",
+      "prediction": "59-D1 50216",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1588_medium.png",
+      "label": "59-D1 502.16",
+      "prediction": "59-01 502.16",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1588_high.png",
+      "label": "59-D1 502.16",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1588_occluded.png",
+      "label": "59-D1 502.16",
+      "prediction": "50-01 50216",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1592_low.png",
+      "label": "59-K2 012.24",
+      "prediction": "50.K2 012.24",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1592_medium.png",
+      "label": "59-K2 012.24",
+      "prediction": "50.K2 012.24",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1592_high.png",
+      "label": "59-K2 012.24",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1592_occluded.png",
+      "label": "59-K2 012.24",
+      "prediction": "12.24",
+      "exact_match": false,
+      "cer": 0.5556
+    },
+    {
+      "image": "1593_low.png",
+      "label": "29-C1 209.02",
+      "prediction": "29-C1 209.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1593_medium.png",
+      "label": "29-C1 209.02",
+      "prediction": "29-C1 209.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1593_high.png",
+      "label": "29-C1 209.02",
+      "prediction": "MN",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1593_occluded.png",
+      "label": "29-C1 209.02",
+      "prediction": "29-C1 209.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1605_low.png",
+      "label": "59-G1 615.90",
+      "prediction": "59-G1 615.90",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1605_medium.png",
+      "label": "59-G1 615.90",
+      "prediction": "5-61 GISSh",
+      "exact_match": false,
+      "cer": 0.7778
+    },
+    {
+      "image": "1605_high.png",
+      "label": "59-G1 615.90",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1605_occluded.png",
+      "label": "59-G1 615.90",
+      "prediction": "59-C1 61590",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1610_low.png",
+      "label": "59-P1 331.63",
+      "prediction": "59-P1 331.63",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1610_medium.png",
+      "label": "59-P1 331.63",
+      "prediction": "59-P1 331.63",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1610_high.png",
+      "label": "59-P1 331.63",
+      "prediction": "N",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1610_occluded.png",
+      "label": "59-P1 331.63",
+      "prediction": "C163",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1612_low.png",
+      "label": "59-M1 364.52",
+      "prediction": "ST 36452",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1612_medium.png",
+      "label": "59-M1 364.52",
+      "prediction": "59-M1 364.52",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1612_high.png",
+      "label": "59-M1 364.52",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1612_occluded.png",
+      "label": "59-M1 364.52",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1614_low.png",
+      "label": "59-M1 884.18",
+      "prediction": "59-M1 884.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1614_medium.png",
+      "label": "59-M1 884.18",
+      "prediction": "59-M1 884.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1614_high.png",
+      "label": "59-M1 884.18",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1614_occluded.png",
+      "label": "59-M1 884.18",
+      "prediction": "59-W1",
+      "exact_match": false,
+      "cer": 0.6667
+    },
+    {
+      "image": "1617_low.png",
+      "label": "59-F1 750.31",
+      "prediction": "59-F1 750.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1617_medium.png",
+      "label": "59-F1 750.31",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1617_high.png",
+      "label": "59-F1 750.31",
+      "prediction": "59-F1 750.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1617_occluded.png",
+      "label": "59-F1 750.31",
+      "prediction": "54-F1 JU.31",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1619_low.png",
+      "label": "72-X1 8179",
+      "prediction": "72-X1 8179",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1619_medium.png",
+      "label": "72-X1 8179",
+      "prediction": "72-X1 8179",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1619_high.png",
+      "label": "72-X1 8179",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1619_occluded.png",
+      "label": "72-X1 8179",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1622_low.png",
+      "label": "51-S9 1699",
+      "prediction": "51-S9 1699",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1622_medium.png",
+      "label": "51-S9 1699",
+      "prediction": "51-59 1699",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1622_high.png",
+      "label": "51-S9 1699",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1622_occluded.png",
+      "label": "51-S9 1699",
+      "prediction": "-59 1695",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "1630_low.png",
+      "label": "59-U1 399.97",
+      "prediction": "59-01 399.97",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1630_medium.png",
+      "label": "59-U1 399.97",
+      "prediction": "59-U1 399.97",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1630_high.png",
+      "label": "59-U1 399.97",
+      "prediction": "659-17 35997",
+      "exact_match": false,
+      "cer": 0.4444
+    },
+    {
+      "image": "1630_occluded.png",
+      "label": "59-U1 399.97",
+      "prediction": "9-01 339.97",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1647_low.png",
+      "label": "59-L1 002.46",
+      "prediction": "59-L1 002.46",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1647_medium.png",
+      "label": "59-L1 002.46",
+      "prediction": "59-L1 002.46",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1647_high.png",
+      "label": "59-L1 002.46",
+      "prediction": "59-L1 DDZ46",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1647_occluded.png",
+      "label": "59-L1 002.46",
+      "prediction": "59-L1 IT446",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1649_low.png",
+      "label": "59-P1 255.12",
+      "prediction": "59-P1 255.12",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1649_medium.png",
+      "label": "59-P1 255.12",
+      "prediction": "59.P1 25512",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1649_high.png",
+      "label": "59-P1 255.12",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1649_occluded.png",
+      "label": "59-P1 255.12",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1658_low.png",
+      "label": "59-S1 062.41",
+      "prediction": "59.S1 062.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1658_medium.png",
+      "label": "59-S1 062.41",
+      "prediction": "59-S1 062.41",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1658_high.png",
+      "label": "59-S1 062.41",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1658_occluded.png",
+      "label": "59-S1 062.41",
+      "prediction": "T59-ST 062.41",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1671_low.png",
+      "label": "59-C1 309.23",
+      "prediction": "59-C1 309.23",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1671_medium.png",
+      "label": "59-C1 309.23",
+      "prediction": "59-C1 309.23",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1671_high.png",
+      "label": "59-C1 309.23",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1671_occluded.png",
+      "label": "59-C1 309.23",
+      "prediction": "59-CT 309.23",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1683_low.png",
+      "label": "79-N1 791.17",
+      "prediction": "79-N1 791.17",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1683_medium.png",
+      "label": "79-N1 791.17",
+      "prediction": "79-N1 791.17",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1683_high.png",
+      "label": "79-N1 791.17",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1683_occluded.png",
+      "label": "79-N1 791.17",
+      "prediction": "79-N1 79t1",
+      "exact_match": false,
+      "cer": 0.2222
+    },
+    {
+      "image": "1684_low.png",
+      "label": "51-H2 3397",
+      "prediction": "51-H2 3397",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1684_medium.png",
+      "label": "51-H2 3397",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1684_high.png",
+      "label": "51-H2 3397",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1684_occluded.png",
+      "label": "51-H2 3397",
+      "prediction": "3397",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "1704_low.png",
+      "label": "62-M1 361.69",
+      "prediction": "62-M1 361.69",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1704_medium.png",
+      "label": "62-M1 361.69",
+      "prediction": "62-M1 361.69",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1704_high.png",
+      "label": "62-M1 361.69",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1704_occluded.png",
+      "label": "62-M1 361.69",
+      "prediction": "62-M1 361.69",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1713_low.png",
+      "label": "54-Z1 2997",
+      "prediction": "54-21 2997",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1713_medium.png",
+      "label": "54-Z1 2997",
+      "prediction": "54.-21 2997",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1713_high.png",
+      "label": "54-Z1 2997",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1713_occluded.png",
+      "label": "54-Z1 2997",
+      "prediction": "5-71 2997",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1724_low.png",
+      "label": "51-H4 9707",
+      "prediction": "51-H4 9707",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1724_medium.png",
+      "label": "51-H4 9707",
+      "prediction": "51-H4 9707",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1724_high.png",
+      "label": "51-H4 9707",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1724_occluded.png",
+      "label": "51-H4 9707",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1743_low.png",
+      "label": "37-E1 191.45",
+      "prediction": "37-E1 191.45",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1743_medium.png",
+      "label": "37-E1 191.45",
+      "prediction": "37-E1 191.45",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1743_high.png",
+      "label": "37-E1 191.45",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1743_occluded.png",
+      "label": "37-E1 191.45",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1745_low.png",
+      "label": "51-Z7 4533",
+      "prediction": "51-27 4533",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1745_medium.png",
+      "label": "51-Z7 4533",
+      "prediction": "51-27 4533",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1745_high.png",
+      "label": "51-Z7 4533",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1745_occluded.png",
+      "label": "51-Z7 4533",
+      "prediction": "51-27 4532",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1746_low.png",
+      "label": "72-D1 086.82",
+      "prediction": "72.D1 086.82",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1746_medium.png",
+      "label": "72-D1 086.82",
+      "prediction": "72-01 086.82",
+      "exact_match": false,
+      "cer": 0.1111
+    },
+    {
+      "image": "1746_high.png",
+      "label": "72-D1 086.82",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1746_occluded.png",
+      "label": "72-D1 086.82",
+      "prediction": "D1 086.87",
+      "exact_match": false,
+      "cer": 0.3333
+    },
+    {
+      "image": "1765_low.png",
+      "label": "30G 582.36",
+      "prediction": "30G 582.36",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1765_medium.png",
+      "label": "30G 582.36",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1765_high.png",
+      "label": "30G 582.36",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1765_occluded.png",
+      "label": "30G 582.36",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1768_low.png",
+      "label": "29H-152.07",
+      "prediction": "29H-152.07",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1768_medium.png",
+      "label": "29H-152.07",
+      "prediction": "29H-152.07",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1768_high.png",
+      "label": "29H-152.07",
+      "prediction": "291-15207",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1768_occluded.png",
+      "label": "29H-152.07",
+      "prediction": "29H-152.07",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1770_low.png",
+      "label": "30F-322.45",
+      "prediction": "30F-322.45",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1770_medium.png",
+      "label": "30F-322.45",
+      "prediction": "30F-322.45",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1770_high.png",
+      "label": "30F-322.45",
+      "prediction": "TE",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1770_occluded.png",
+      "label": "30F-322.45",
+      "prediction": "3uF322L5",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1792_low.png",
+      "label": "30F-547.45",
+      "prediction": "30F-547.45",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1792_medium.png",
+      "label": "30F-547.45",
+      "prediction": "30F-547.45",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1792_high.png",
+      "label": "30F-547.45",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1792_occluded.png",
+      "label": "30F-547.45",
+      "prediction": "30F 047.45",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1803_low.png",
+      "label": "30A-711.03",
+      "prediction": "30A-711.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1803_medium.png",
+      "label": "30A-711.03",
+      "prediction": "30A-711.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1803_high.png",
+      "label": "30A-711.03",
+      "prediction": "51711",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "1803_occluded.png",
+      "label": "30A-711.03",
+      "prediction": "3UA711.03",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1817_low.png",
+      "label": "30E 858.86",
+      "prediction": "30E 858.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1817_medium.png",
+      "label": "30E 858.86",
+      "prediction": "30E 858.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1817_high.png",
+      "label": "30E 858.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1817_occluded.png",
+      "label": "30E 858.86",
+      "prediction": "30E 858.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1819_low.png",
+      "label": "51F 869.47",
+      "prediction": "51F 869.47",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1819_medium.png",
+      "label": "51F 869.47",
+      "prediction": "5TF 869.47",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1819_high.png",
+      "label": "51F 869.47",
+      "prediction": "869.",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "1819_occluded.png",
+      "label": "51F 869.47",
+      "prediction": "5TF 869.47",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1822_low.png",
+      "label": "89A-069.32",
+      "prediction": "89A-069.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1822_medium.png",
+      "label": "89A-069.32",
+      "prediction": "89A-069.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1822_high.png",
+      "label": "89A-069.32",
+      "prediction": "89A-069.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1822_occluded.png",
+      "label": "89A-069.32",
+      "prediction": "89A-069.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1827_low.png",
+      "label": "30F 782.86",
+      "prediction": "30F 782.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1827_medium.png",
+      "label": "30F 782.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1827_high.png",
+      "label": "30F 782.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1827_occluded.png",
+      "label": "30F 782.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1838_low.png",
+      "label": "34A-204.77",
+      "prediction": "34A-204.77",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1838_medium.png",
+      "label": "34A-204.77",
+      "prediction": "34A-204.77",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1838_high.png",
+      "label": "34A-204.77",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1838_occluded.png",
+      "label": "34A-204.77",
+      "prediction": "CA-2U4.77",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "1850_low.png",
+      "label": "30G-043.75",
+      "prediction": "30G-437.55 02/11/2020 17:28",
+      "exact_match": false,
+      "cer": 1.75
+    },
+    {
+      "image": "1850_medium.png",
+      "label": "30G-043.75",
+      "prediction": "02/11/2020 17:28",
+      "exact_match": false,
+      "cer": 1.25
+    },
+    {
+      "image": "1850_high.png",
+      "label": "30G-043.75",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1850_occluded.png",
+      "label": "30G-043.75",
+      "prediction": "437.55 02/11/2020.17:28",
+      "exact_match": false,
+      "cer": 1.625
+    },
+    {
+      "image": "1871_low.png",
+      "label": "30A 711.03",
+      "prediction": "3UA 711.03",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1871_medium.png",
+      "label": "30A 711.03",
+      "prediction": "3UA 711.03",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1871_high.png",
+      "label": "30A 711.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1871_occluded.png",
+      "label": "30A 711.03",
+      "prediction": "3UA 711.03",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1873_low.png",
+      "label": "29A-651.69",
+      "prediction": "65169",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "1873_medium.png",
+      "label": "29A-651.69",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1873_high.png",
+      "label": "29A-651.69",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1873_occluded.png",
+      "label": "29A-651.69",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1898_low.png",
+      "label": "30F-504.83",
+      "prediction": "30F-504.83",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1898_medium.png",
+      "label": "30F-504.83",
+      "prediction": "30F-504.93",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1898_high.png",
+      "label": "30F-504.83",
+      "prediction": "30F-504.83",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1898_occluded.png",
+      "label": "30F-504.83",
+      "prediction": "305-504.83",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1899_low.png",
+      "label": "30E-066.18",
+      "prediction": "30E-066.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1899_medium.png",
+      "label": "30E-066.18",
+      "prediction": "30E-066.18",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1899_high.png",
+      "label": "30E-066.18",
+      "prediction": "30E-06615",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1899_occluded.png",
+      "label": "30E-066.18",
+      "prediction": "3UE-066.18",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1903_low.png",
+      "label": "30E 773.79",
+      "prediction": "30E-773.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1903_medium.png",
+      "label": "30E 773.79",
+      "prediction": "30E-773.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1903_high.png",
+      "label": "30E 773.79",
+      "prediction": "ROAT",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1903_occluded.png",
+      "label": "30E 773.79",
+      "prediction": "30F-77379",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1916_low.png",
+      "label": "29A-953.94",
+      "prediction": "29A-953.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1916_medium.png",
+      "label": "29A-953.94",
+      "prediction": "29A-953.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1916_high.png",
+      "label": "29A-953.94",
+      "prediction": "291-953.94",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1916_occluded.png",
+      "label": "29A-953.94",
+      "prediction": "29A-953.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1922_low.png",
+      "label": "30E 610.11",
+      "prediction": "30E 610.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1922_medium.png",
+      "label": "30E 610.11",
+      "prediction": "30E 610.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1922_high.png",
+      "label": "30E 610.11",
+      "prediction": "3OE 610.11",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1922_occluded.png",
+      "label": "30E 610.11",
+      "prediction": "30E 610.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1933_low.png",
+      "label": "30E-890.23",
+      "prediction": "30E-890.23",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1933_medium.png",
+      "label": "30E-890.23",
+      "prediction": "30E-890.23",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1933_high.png",
+      "label": "30E-890.23",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1933_occluded.png",
+      "label": "30E-890.23",
+      "prediction": "30E-89023",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1934_low.png",
+      "label": "29A-719.90",
+      "prediction": "29A-719.90",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1934_medium.png",
+      "label": "29A-719.90",
+      "prediction": "291719.90",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1934_high.png",
+      "label": "29A-719.90",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1934_occluded.png",
+      "label": "29A-719.90",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1935_low.png",
+      "label": "30G-372.13",
+      "prediction": "30G 372.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1935_medium.png",
+      "label": "30G-372.13",
+      "prediction": "30G 372.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1935_high.png",
+      "label": "30G-372.13",
+      "prediction": "30G 372.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1935_occluded.png",
+      "label": "30G-372.13",
+      "prediction": "306 372.13",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1939_low.png",
+      "label": "51G 943.03",
+      "prediction": "51G 943.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1939_medium.png",
+      "label": "51G 943.03",
+      "prediction": "51G 943.03",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1939_high.png",
+      "label": "51G 943.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1939_occluded.png",
+      "label": "51G 943.03",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1945_low.png",
+      "label": "30F-905.40",
+      "prediction": "30F-905.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1945_medium.png",
+      "label": "30F-905.40",
+      "prediction": "30F-905.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1945_high.png",
+      "label": "30F-905.40",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1945_occluded.png",
+      "label": "30F-905.40",
+      "prediction": "30F-905.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1965_low.png",
+      "label": "89A 123.88",
+      "prediction": "89A 123.88",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1965_medium.png",
+      "label": "89A 123.88",
+      "prediction": "89A 123.88",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1965_high.png",
+      "label": "89A 123.88",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1965_occluded.png",
+      "label": "89A 123.88",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1967_low.png",
+      "label": "30E-773.79",
+      "prediction": "30E-77379",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1967_medium.png",
+      "label": "30E-773.79",
+      "prediction": "30E-77379",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1967_high.png",
+      "label": "30E-773.79",
+      "prediction": "S0E-77375",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "1967_occluded.png",
+      "label": "30E-773.79",
+      "prediction": "30E-Z7379",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "1979_low.png",
+      "label": "30A-041.80",
+      "prediction": "30A-041.80",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1979_medium.png",
+      "label": "30A-041.80",
+      "prediction": "30A-041.80",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1979_high.png",
+      "label": "30A-041.80",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1979_occluded.png",
+      "label": "30A-041.80",
+      "prediction": "30A-041.80",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1981_low.png",
+      "label": "30G 532.79",
+      "prediction": "30G 532.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1981_medium.png",
+      "label": "30G 532.79",
+      "prediction": "30G 532.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1981_high.png",
+      "label": "30G 532.79",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "1981_occluded.png",
+      "label": "30G 532.79",
+      "prediction": "30G 532.79",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1992_low.png",
+      "label": "89A-178.88",
+      "prediction": "89A-178.88",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1992_medium.png",
+      "label": "89A-178.88",
+      "prediction": "89A-178.88",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1992_high.png",
+      "label": "89A-178.88",
+      "prediction": "89A-178.88",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "1992_occluded.png",
+      "label": "89A-178.88",
+      "prediction": "173.98 89A",
+      "exact_match": false,
+      "cer": 0.875
+    },
+    {
+      "image": "2003_low.png",
+      "label": "30F 991.27",
+      "prediction": "30E 991.27",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2003_medium.png",
+      "label": "30F 991.27",
+      "prediction": "30E 991.27",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2003_high.png",
+      "label": "30F 991.27",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2003_occluded.png",
+      "label": "30F 991.27",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2005_low.png",
+      "label": "99A 104.32",
+      "prediction": "99A 104.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2005_medium.png",
+      "label": "99A 104.32",
+      "prediction": "99A 104.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2005_high.png",
+      "label": "99A 104.32",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2005_occluded.png",
+      "label": "99A 104.32",
+      "prediction": "99A 104.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2006_low.png",
+      "label": "30E 637.85",
+      "prediction": "30E 637.85",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2006_medium.png",
+      "label": "30E 637.85",
+      "prediction": "30E .85 637",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "2006_high.png",
+      "label": "30E 637.85",
+      "prediction": "30E",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2006_occluded.png",
+      "label": "30E 637.85",
+      "prediction": "30E 837.85",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2008_low.png",
+      "label": "30A-594.64",
+      "prediction": "J0A-594.64",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2008_medium.png",
+      "label": "30A-594.64",
+      "prediction": "JUA-594.64",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2008_high.png",
+      "label": "30A-594.64",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2008_occluded.png",
+      "label": "30A-594.64",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2011_low.png",
+      "label": "21A-085.31",
+      "prediction": "21A-085.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2011_medium.png",
+      "label": "21A-085.31",
+      "prediction": "214-08531",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2011_high.png",
+      "label": "21A-085.31",
+      "prediction": "210S327",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2011_occluded.png",
+      "label": "21A-085.31",
+      "prediction": "21A-085.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2018_low.png",
+      "label": "30F-215.10",
+      "prediction": "30F-215.10",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2018_medium.png",
+      "label": "30F-215.10",
+      "prediction": "30F-215.10",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2018_high.png",
+      "label": "30F-215.10",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2018_occluded.png",
+      "label": "30F-215.10",
+      "prediction": "BOF 215.10",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2025_low.png",
+      "label": "89A 069.32",
+      "prediction": "89A 069.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2025_medium.png",
+      "label": "89A 069.32",
+      "prediction": "89A 069.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2025_high.png",
+      "label": "89A 069.32",
+      "prediction": "C",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2025_occluded.png",
+      "label": "89A 069.32",
+      "prediction": "89A 000.32",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2033_low.png",
+      "label": "89A 110.39",
+      "prediction": "89A 110.39",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2033_medium.png",
+      "label": "89A 110.39",
+      "prediction": "89A 110.39",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2033_high.png",
+      "label": "89A 110.39",
+      "prediction": "89A 110.39",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2033_occluded.png",
+      "label": "89A 110.39",
+      "prediction": "89A 110.39",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2048_low.png",
+      "label": "88A-144.36",
+      "prediction": "88A-144.36",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2048_medium.png",
+      "label": "88A-144.36",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2048_high.png",
+      "label": "88A-144.36",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2048_occluded.png",
+      "label": "88A-144.36",
+      "prediction": "88A-144.36",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2050_low.png",
+      "label": "98A 328.02",
+      "prediction": "98A 328.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2050_medium.png",
+      "label": "98A 328.02",
+      "prediction": "98A 328.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2050_high.png",
+      "label": "98A 328.02",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2050_occluded.png",
+      "label": "98A 328.02",
+      "prediction": "328.02",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2051_low.png",
+      "label": "30F-089.31",
+      "prediction": "3OF-089.31",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2051_medium.png",
+      "label": "30F-089.31",
+      "prediction": "OF-089.3",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2051_high.png",
+      "label": "30F-089.31",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2051_occluded.png",
+      "label": "30F-089.31",
+      "prediction": "w-089k1",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "2066_low.png",
+      "label": "30F 659.46",
+      "prediction": "3UF 659.46",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2066_medium.png",
+      "label": "30F 659.46",
+      "prediction": "3UF 659.46",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2066_high.png",
+      "label": "30F 659.46",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2066_occluded.png",
+      "label": "30F 659.46",
+      "prediction": "659.46",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2079_low.png",
+      "label": "30F-362.53",
+      "prediction": "30F-362.53",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2079_medium.png",
+      "label": "30F-362.53",
+      "prediction": "30F-362.53",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2079_high.png",
+      "label": "30F-362.53",
+      "prediction": "3OF-36253",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2079_occluded.png",
+      "label": "30F-362.53",
+      "prediction": "30F02.53",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2086_low.png",
+      "label": "30E 661.22",
+      "prediction": "3UE 66122",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2086_medium.png",
+      "label": "30E 661.22",
+      "prediction": "3UE 661.22",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2086_high.png",
+      "label": "30E 661.22",
+      "prediction": "SUE 661.22",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2086_occluded.png",
+      "label": "30E 661.22",
+      "prediction": "JUE 66152",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2093_low.png",
+      "label": "30F 501.67",
+      "prediction": "30F 501.67",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2093_medium.png",
+      "label": "30F 501.67",
+      "prediction": "30F 501.67",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2093_high.png",
+      "label": "30F 501.67",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2093_occluded.png",
+      "label": "30F 501.67",
+      "prediction": "30F 501.67",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2113_low.png",
+      "label": "30E-387.21",
+      "prediction": "30E-387.21",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2113_medium.png",
+      "label": "30E-387.21",
+      "prediction": "30E-387.21",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2113_high.png",
+      "label": "30E-387.21",
+      "prediction": "20E-387.21",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2113_occluded.png",
+      "label": "30E-387.21",
+      "prediction": "FCE387.21",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2120_low.png",
+      "label": "30G 614.62",
+      "prediction": "30G 614.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2120_medium.png",
+      "label": "30G 614.62",
+      "prediction": "30G 6 14.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2120_high.png",
+      "label": "30G 614.62",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2120_occluded.png",
+      "label": "30G 614.62",
+      "prediction": "30G",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2125_low.png",
+      "label": "30E-238.71",
+      "prediction": "30E-238.71",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2125_medium.png",
+      "label": "30E-238.71",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2125_high.png",
+      "label": "30E-238.71",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2125_occluded.png",
+      "label": "30E-238.71",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2144_low.png",
+      "label": "30A-988.46",
+      "prediction": "30A-988.46",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2144_medium.png",
+      "label": "30A-988.46",
+      "prediction": "30A-988.46",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2144_high.png",
+      "label": "30A-988.46",
+      "prediction": "30A-988.46",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2144_occluded.png",
+      "label": "30A-988.46",
+      "prediction": "30A-98846",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2149_low.png",
+      "label": "30F 490.56",
+      "prediction": "30F 490.56",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2149_medium.png",
+      "label": "30F 490.56",
+      "prediction": "30F 490.56",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2149_high.png",
+      "label": "30F 490.56",
+      "prediction": "30F 49056",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2149_occluded.png",
+      "label": "30F 490.56",
+      "prediction": "30F 90.56",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2179_low.png",
+      "label": "89A-109.93",
+      "prediction": "89A-109.93",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2179_medium.png",
+      "label": "89A-109.93",
+      "prediction": "89A-109.93",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2179_high.png",
+      "label": "89A-109.93",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2179_occluded.png",
+      "label": "89A-109.93",
+      "prediction": "100.93",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "2195_low.png",
+      "label": "30E-720.66",
+      "prediction": "612066",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "2195_medium.png",
+      "label": "30E-720.66",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2195_high.png",
+      "label": "30E-720.66",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2195_occluded.png",
+      "label": "30E-720.66",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2228_low.png",
+      "label": "30F 609.47",
+      "prediction": "30H 6094",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2228_medium.png",
+      "label": "30F 609.47",
+      "prediction": "30F 609.47",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2228_high.png",
+      "label": "30F 609.47",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2228_occluded.png",
+      "label": "30F 609.47",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2254_low.png",
+      "label": "30N-7921",
+      "prediction": "30V-7921",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2254_medium.png",
+      "label": "30N-7921",
+      "prediction": "30V-7921",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2254_high.png",
+      "label": "30N-7921",
+      "prediction": "30V-7921",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2254_occluded.png",
+      "label": "30N-7921",
+      "prediction": "30V-7921",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2255_low.png",
+      "label": "30F-911.49",
+      "prediction": "30F-911.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2255_medium.png",
+      "label": "30F-911.49",
+      "prediction": "30F-911.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2255_high.png",
+      "label": "30F-911.49",
+      "prediction": "30F-911.49",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2255_occluded.png",
+      "label": "30F-911.49",
+      "prediction": "306911.49",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2267_low.png",
+      "label": "30G 610.86",
+      "prediction": "30G 610.8",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2267_medium.png",
+      "label": "30G 610.86",
+      "prediction": "30G 61D.B.",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2267_high.png",
+      "label": "30G 610.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2267_occluded.png",
+      "label": "30G 610.86",
+      "prediction": "6T0.83",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2270_low.png",
+      "label": "89A-139.62",
+      "prediction": "89A-139.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2270_medium.png",
+      "label": "89A-139.62",
+      "prediction": "89A-139.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2270_high.png",
+      "label": "89A-139.62",
+      "prediction": "89A-139.62",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2270_occluded.png",
+      "label": "89A-139.62",
+      "prediction": "EHA-139.62",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2276_low.png",
+      "label": "30E-207.01",
+      "prediction": "30E-207.01",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2276_medium.png",
+      "label": "30E-207.01",
+      "prediction": "30E-207.01",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2276_high.png",
+      "label": "30E-207.01",
+      "prediction": "30E-207.01",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2276_occluded.png",
+      "label": "30E-207.01",
+      "prediction": "30E207.01",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2283_low.png",
+      "label": "29H 129.97",
+      "prediction": "29H 129.97",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2283_medium.png",
+      "label": "29H 129.97",
+      "prediction": "29H 129.97",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2283_high.png",
+      "label": "29H 129.97",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2283_occluded.png",
+      "label": "29H 129.97",
+      "prediction": "29.97",
+      "exact_match": false,
+      "cer": 0.5
+    },
+    {
+      "image": "2292_low.png",
+      "label": "29A-465.11",
+      "prediction": "29A-465.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2292_medium.png",
+      "label": "29A-465.11",
+      "prediction": "29A-465.11",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2292_high.png",
+      "label": "29A-465.11",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2292_occluded.png",
+      "label": "29A-465.11",
+      "prediction": "29A-465.10",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2306_low.png",
+      "label": "30E-412.31",
+      "prediction": "30E-412.31 27/10/202016:02",
+      "exact_match": false,
+      "cer": 1.5
+    },
+    {
+      "image": "2306_medium.png",
+      "label": "30E-412.31",
+      "prediction": "30E-412.31 27/10/2020.16:02",
+      "exact_match": false,
+      "cer": 1.5
+    },
+    {
+      "image": "2306_high.png",
+      "label": "30E-412.31",
+      "prediction": "30E-412377",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2306_occluded.png",
+      "label": "30E-412.31",
+      "prediction": "31 30E 27/10/2020 16:02",
+      "exact_match": false,
+      "cer": 1.375
+    },
+    {
+      "image": "2317_low.png",
+      "label": "30A-178.31",
+      "prediction": "30A-17831",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2317_medium.png",
+      "label": "30A-178.31",
+      "prediction": "30A-178.31",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2317_high.png",
+      "label": "30A-178.31",
+      "prediction": "A-IYS3M",
+      "exact_match": false,
+      "cer": 0.75
+    },
+    {
+      "image": "2317_occluded.png",
+      "label": "30A-178.31",
+      "prediction": "MOA-17821",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2324_low.png",
+      "label": "29A 325.10",
+      "prediction": "29A 325.10",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2324_medium.png",
+      "label": "29A 325.10",
+      "prediction": "29A 325.10",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2324_high.png",
+      "label": "29A 325.10",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2324_occluded.png",
+      "label": "29A 325.10",
+      "prediction": "325.10",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2329_low.png",
+      "label": "29A-023.43",
+      "prediction": "29A-023.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2329_medium.png",
+      "label": "29A-023.43",
+      "prediction": "29A-023.43",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2329_high.png",
+      "label": "29A-023.43",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2329_occluded.png",
+      "label": "29A-023.43",
+      "prediction": "LJA -023.43",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2334_low.png",
+      "label": "30E-293.28",
+      "prediction": "30E-293.28",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2334_medium.png",
+      "label": "30E-293.28",
+      "prediction": "30E-293.28",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2334_high.png",
+      "label": "30E-293.28",
+      "prediction": "30E-293.28",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2334_occluded.png",
+      "label": "30E-293.28",
+      "prediction": "30293.28",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2340_low.png",
+      "label": "29V-6767",
+      "prediction": "29V-6767",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2340_medium.png",
+      "label": "29V-6767",
+      "prediction": "29V-6767",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2340_high.png",
+      "label": "29V-6767",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2340_occluded.png",
+      "label": "29V-6767",
+      "prediction": "29V-6767",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2344_low.png",
+      "label": "30F-926.19",
+      "prediction": "30F-926.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2344_medium.png",
+      "label": "30F-926.19",
+      "prediction": "30F-926.19",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2344_high.png",
+      "label": "30F-926.19",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2344_occluded.png",
+      "label": "30F-926.19",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2363_low.png",
+      "label": "99A-104.32",
+      "prediction": "99A-104.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2363_medium.png",
+      "label": "99A-104.32",
+      "prediction": "99A-104.32",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2363_high.png",
+      "label": "99A-104.32",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2363_occluded.png",
+      "label": "99A-104.32",
+      "prediction": "99A-T04.32",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2369_low.png",
+      "label": "98A-328.02",
+      "prediction": "98A-328.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2369_medium.png",
+      "label": "98A-328.02",
+      "prediction": "98A-328.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2369_high.png",
+      "label": "98A-328.02",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2369_occluded.png",
+      "label": "98A-328.02",
+      "prediction": "98A-328.02",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2388_low.png",
+      "label": "30S-2639",
+      "prediction": "30S-2639",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2388_medium.png",
+      "label": "30S-2639",
+      "prediction": "30S-2639",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2388_high.png",
+      "label": "30S-2639",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2388_occluded.png",
+      "label": "30S-2639",
+      "prediction": "305239",
+      "exact_match": false,
+      "cer": 0.2857
+    },
+    {
+      "image": "2405_low.png",
+      "label": "30G-039.16",
+      "prediction": "30G-039.16",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2405_medium.png",
+      "label": "30G-039.16",
+      "prediction": "30G-039.16",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2405_high.png",
+      "label": "30G-039.16",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2405_occluded.png",
+      "label": "30G-039.16",
+      "prediction": "206-039.16",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2419_low.png",
+      "label": "29A-854.37",
+      "prediction": "29A-854.37",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2419_medium.png",
+      "label": "29A-854.37",
+      "prediction": "29A-854.37",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2419_high.png",
+      "label": "29A-854.37",
+      "prediction": "294-85437",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2419_occluded.png",
+      "label": "29A-854.37",
+      "prediction": "201.854.37",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2426_low.png",
+      "label": "30A-924.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2426_medium.png",
+      "label": "30A-924.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2426_high.png",
+      "label": "30A-924.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2426_occluded.png",
+      "label": "30A-924.50",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2437_low.png",
+      "label": "99A 084.87",
+      "prediction": "99A 084.87",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2437_medium.png",
+      "label": "99A 084.87",
+      "prediction": "99A 084.87",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2437_high.png",
+      "label": "99A 084.87",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2437_occluded.png",
+      "label": "99A 084.87",
+      "prediction": "rgA 084.87",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2457_low.png",
+      "label": "29T-2471",
+      "prediction": "29T-2471",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2457_medium.png",
+      "label": "29T-2471",
+      "prediction": "291-2WD",
+      "exact_match": false,
+      "cer": 0.5714
+    },
+    {
+      "image": "2457_high.png",
+      "label": "29T-2471",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2457_occluded.png",
+      "label": "29T-2471",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2458_low.png",
+      "label": "30F-928.40",
+      "prediction": "30F-928.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2458_medium.png",
+      "label": "30F-928.40",
+      "prediction": "30F-928.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2458_high.png",
+      "label": "30F-928.40",
+      "prediction": "30F-928.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2458_occluded.png",
+      "label": "30F-928.40",
+      "prediction": "30F 28.40",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2463_low.png",
+      "label": "30E-661.22",
+      "prediction": "30E-661.22",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2463_medium.png",
+      "label": "30E-661.22",
+      "prediction": "30E-661.22",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2463_high.png",
+      "label": "30E-661.22",
+      "prediction": "30E-66122",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2463_occluded.png",
+      "label": "30E-661.22",
+      "prediction": "30F-661.22",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2469_low.png",
+      "label": "30F 393.61",
+      "prediction": "30F 393.61",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2469_medium.png",
+      "label": "30F 393.61",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2469_high.png",
+      "label": "30F 393.61",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2469_occluded.png",
+      "label": "30F 393.61",
+      "prediction": "30F 20261",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2504_low.png",
+      "label": "30G-379.86",
+      "prediction": "30G-379.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2504_medium.png",
+      "label": "30G-379.86",
+      "prediction": "30G-379.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2504_high.png",
+      "label": "30G-379.86",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2504_occluded.png",
+      "label": "30G-379.86",
+      "prediction": "30G-379.86",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2509_low.png",
+      "label": "29A-871.80",
+      "prediction": "29A-871.80",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2509_medium.png",
+      "label": "29A-871.80",
+      "prediction": "29A-871.80",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2509_high.png",
+      "label": "29A-871.80",
+      "prediction": "31-471.20",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2509_occluded.png",
+      "label": "29A-871.80",
+      "prediction": "2A-871.80",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2516_low.png",
+      "label": "30G 119.94",
+      "prediction": "30G 119.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2516_medium.png",
+      "label": "30G 119.94",
+      "prediction": "30G 119.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2516_high.png",
+      "label": "30G 119.94",
+      "prediction": "30G 119.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2516_occluded.png",
+      "label": "30G 119.94",
+      "prediction": "30G 110.94",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2518_low.png",
+      "label": "29D-215.96",
+      "prediction": "29D-215.96",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2518_medium.png",
+      "label": "29D-215.96",
+      "prediction": "29D-215.96",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2518_high.png",
+      "label": "29D-215.96",
+      "prediction": "290-215,96",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2518_occluded.png",
+      "label": "29D-215.96",
+      "prediction": "296--5 1.96",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2537_low.png",
+      "label": "29- 572.24",
+      "prediction": "29A-572.24",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2537_medium.png",
+      "label": "29- 572.24",
+      "prediction": "29A-572.24",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2537_high.png",
+      "label": "29- 572.24",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2537_occluded.png",
+      "label": "29- 572.24",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2547_low.png",
+      "label": "30G 372.13",
+      "prediction": "30G 372.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2547_medium.png",
+      "label": "30G 372.13",
+      "prediction": "30G 372.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2547_high.png",
+      "label": "30G 372.13",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2547_occluded.png",
+      "label": "30G 372.13",
+      "prediction": "30G 372.13",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2564_low.png",
+      "label": "30F-156.95",
+      "prediction": "30F-156.95",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2564_medium.png",
+      "label": "30F-156.95",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2564_high.png",
+      "label": "30F-156.95",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2564_occluded.png",
+      "label": "30F-156.95",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2565_low.png",
+      "label": "30F-902.30",
+      "prediction": "30F-902.30",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2565_medium.png",
+      "label": "30F-902.30",
+      "prediction": "30F-902.30",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2565_high.png",
+      "label": "30F-902.30",
+      "prediction": "MZ",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2565_occluded.png",
+      "label": "30F-902.30",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2586_low.png",
+      "label": "30F-772.94",
+      "prediction": "30F-772.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2586_medium.png",
+      "label": "30F-772.94",
+      "prediction": "30F-772.94",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2586_high.png",
+      "label": "30F-772.94",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2586_occluded.png",
+      "label": "30F-772.94",
+      "prediction": "30F-77294",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2595_low.png",
+      "label": "30F 905.40",
+      "prediction": "30F 905.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2595_medium.png",
+      "label": "30F 905.40",
+      "prediction": "30F 905.40",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2595_high.png",
+      "label": "30F 905.40",
+      "prediction": "30F",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2595_occluded.png",
+      "label": "30F 905.40",
+      "prediction": "30F 05.40",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2607_low.png",
+      "label": "29A-5604",
+      "prediction": "79A-560.49",
+      "exact_match": false,
+      "cer": 0.2857
+    },
+    {
+      "image": "2607_medium.png",
+      "label": "29A-5604",
+      "prediction": "29A-560.49",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2607_high.png",
+      "label": "29A-5604",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2607_occluded.png",
+      "label": "29A-5604",
+      "prediction": "A-560.48 29",
+      "exact_match": false,
+      "cer": 0.7143
+    },
+    {
+      "image": "2610_low.png",
+      "label": "30X-6295",
+      "prediction": "30X-6295",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2610_medium.png",
+      "label": "30X-6295",
+      "prediction": "30X-6295",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2610_high.png",
+      "label": "30X-6295",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2610_occluded.png",
+      "label": "30X-6295",
+      "prediction": "30X-0295",
+      "exact_match": false,
+      "cer": 0.1429
+    },
+    {
+      "image": "2612_low.png",
+      "label": "30E 545.15",
+      "prediction": "30E 545.15",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2612_medium.png",
+      "label": "30E 545.15",
+      "prediction": "30E 545.15",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2612_high.png",
+      "label": "30E 545.15",
+      "prediction": "30E 545.15",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2612_occluded.png",
+      "label": "30E 545.15",
+      "prediction": "30E J45.15",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2620_low.png",
+      "label": "89D-005.90",
+      "prediction": "89D-005.90",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2620_medium.png",
+      "label": "89D-005.90",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2620_high.png",
+      "label": "89D-005.90",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2620_occluded.png",
+      "label": "89D-005.90",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2637_low.png",
+      "label": "30G-278.38",
+      "prediction": "30G-278.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2637_medium.png",
+      "label": "30G-278.38",
+      "prediction": "30G-278.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2637_high.png",
+      "label": "30G-278.38",
+      "prediction": "30G-278.38",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2637_occluded.png",
+      "label": "30G-278.38",
+      "prediction": "300 278.38",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2641_low.png",
+      "label": "30G 556.55",
+      "prediction": "30G 556.55",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2641_medium.png",
+      "label": "30G 556.55",
+      "prediction": "306 556.5",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2641_high.png",
+      "label": "30G 556.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2641_occluded.png",
+      "label": "30G 556.55",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2650_low.png",
+      "label": "29H 316.58",
+      "prediction": "29H 316.58",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2650_medium.png",
+      "label": "29H 316.58",
+      "prediction": "29H 316.58",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2650_high.png",
+      "label": "29H 316.58",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2650_occluded.png",
+      "label": "29H 316.58",
+      "prediction": "316.58",
+      "exact_match": false,
+      "cer": 0.375
+    },
+    {
+      "image": "2660_low.png",
+      "label": "99A 274.05",
+      "prediction": "99A 274.05",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2660_medium.png",
+      "label": "99A 274.05",
+      "prediction": "99A 274.05",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2660_high.png",
+      "label": "99A 274.05",
+      "prediction": "994",
+      "exact_match": false,
+      "cer": 0.625
+    },
+    {
+      "image": "2660_occluded.png",
+      "label": "99A 274.05",
+      "prediction": "99A 274.05",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2663_low.png",
+      "label": "29A 372.29",
+      "prediction": "29A 0 372.29",
+      "exact_match": false,
+      "cer": 0.125
+    },
+    {
+      "image": "2663_medium.png",
+      "label": "29A 372.29",
+      "prediction": "29A 372.29",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2663_high.png",
+      "label": "29A 372.29",
+      "prediction": "29A [372.29",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2663_occluded.png",
+      "label": "29A 372.29",
+      "prediction": "29A 2.29",
+      "exact_match": false,
+      "cer": 0.25
+    },
+    {
+      "image": "2674_low.png",
+      "label": "30A-601.68",
+      "prediction": "30A-601.68",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2674_medium.png",
+      "label": "30A-601.68",
+      "prediction": "30A-601.68",
+      "exact_match": true,
+      "cer": 0.0
+    },
+    {
+      "image": "2674_high.png",
+      "label": "30A-601.68",
+      "prediction": "",
+      "exact_match": false,
+      "cer": 1.0
+    },
+    {
+      "image": "2674_occluded.png",
+      "label": "30A-601.68",
+      "prediction": "30A-601.68",
+      "exact_match": true,
+      "cer": 0.0
+    }
+  ]
+}
