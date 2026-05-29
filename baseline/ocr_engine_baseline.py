@@ -26,7 +26,7 @@ from paddleocr import PaddleOCR
 ROOT_DIR = Path(__file__).resolve().parent.parent
 SYNTHETIC_IMG_DIR = ROOT_DIR / "data" / "synthetic"
 TEST_CSV = ROOT_DIR / "data" / "splits" / "test.csv"
-REAL_IMG_DIR = ROOT_DIR / "data" / "real_dataset" / "images"
+REAL_IMG_DIR = ROOT_DIR / "data" / "real_dataset" / "images_resized"
 REAL_LABEL_DIR = ROOT_DIR / "data" / "real_dataset" / "labels"
 RESULT_DIR = ROOT_DIR / "result"
 RESULT_DIR.mkdir(parents=True, exist_ok=True)
