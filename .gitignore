@@ -13,3 +13,4 @@ data/raw/
 data/synthetic/*.png
 data/real_dataset/
 truck_video/
+data/processed/images/

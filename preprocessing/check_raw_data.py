@@ -1,6 +1,6 @@
 import pandas as pd 
 
-df = pd.read_csv("./data/raw/final_data.csv")
+df = pd.read_csv("./data/raw/raw_data.csv")
 # print(df)
 
 # check dupplicate 
@@ -45,4 +45,19 @@ df_remove_dupplicated["clean_plate"] = df_remove_dupplicated["plate"].apply(remo
 # rename + create new data 
 import os
 os.makedirs("./data/processed", exist_ok=True)
-df_remove_dupplicated.to_csv("./data/processed/final_data.csv", index=False)
+# df_remove_dupplicated.to_csv("./data/processed/processed_data2.csv", index=False)
+
+import cv2
+
+# save all images in new folder, remain old name
+RAW_IMG_FOLDER = "./data/raw/images"
+PROCESSED_IMG_FOLDER = "./data/processed/images"
+os.makedirs(PROCESSED_IMG_FOLDER, exist_ok=True)
+for idx, row in df_remove_dupplicated.iterrows():
+    img_name = row["img"]
+    img_path = os.path.join(RAW_IMG_FOLDER, img_name)
+    new_img_path = os.path.join(PROCESSED_IMG_FOLDER, img_name)
+
+    # copy image to new folder
+    img = cv2.imread(img_path)
+    cv2.imwrite(new_img_path, img)
