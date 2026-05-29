@@ -8,11 +8,11 @@ low_bad_transform = A.Compose([
     A.RandomBrightnessContrast(
         brightness_limit=(-0.22, -0.08),
         contrast_limit=(-0.08, 0.08),
-        p=0.7,
+        p=0.9,
     ),
     A.MotionBlur(
         blur_limit=(3, 7),
-        p=0.25,
+        p=0.9,
     ),
     A.Downscale(
         scale_range=(0.8, 0.95),
@@ -31,8 +31,8 @@ medium_bad_transform = A.Compose([
         p=0.9,
     ), 
     A.MotionBlur(
-        blur_limit=(5, 11),
-        p=0.55,
+        blur_limit=(9, 11),
+        p=0.9,
     ),
     A.Downscale(
         scale_range=(0.65, 0.85),
@@ -51,7 +51,7 @@ high_bad_transform = A.Compose([
         p=1.0,
     ),
     A.MotionBlur(
-        blur_limit=(9, 21),
+        blur_limit=(11, 21),
         p=0.9,
     ),
     A.Downscale(
@@ -66,9 +66,9 @@ high_bad_transform = A.Compose([
 
 occluded_bad_transform = A.Compose([
     A.RandomBrightnessContrast(
-        brightness_limit=(-0.45, -0.35),
-        contrast_limit=(-0.2, 0.1),
-        p=0.9,
+        brightness_limit=(-0.5, -0.2),
+        contrast_limit=(-0.25, 0.08),
+        p=0.5,
     ),
     A.CoarseDropout(
         num_holes_range=(1, 3),
@@ -78,7 +78,7 @@ occluded_bad_transform = A.Compose([
         p=1.0,
     ),
     A.MotionBlur(
-        blur_limit=(5, 13),
+        blur_limit=(3, 13),
         p=0.5,
     ),
     A.Downscale(
@@ -87,7 +87,7 @@ occluded_bad_transform = A.Compose([
     ),
     A.ImageCompression(
         quality_range=(35, 65),
-        p=0.6,
+        p=0.5,
     ),
 ])
 
@@ -100,8 +100,8 @@ TRANSFORMS = {
 }
 
 def sync_data(
-    csv_path: str = "./data/processed/final_data.csv",
-    raw_image_dir: str = "./data/raw/images",
+    csv_path: str = "./data/processed/processed_data2.csv",
+    raw_image_dir: str = "./data/processed/images_resized",
     output_dir: str = "./data/synthetic",
 ) -> pd.DataFrame:
     source_df = pd.read_csv(csv_path)
@@ -137,11 +137,12 @@ def sync_data(
                     "plate": label,
                     "source_img": image_name,
                     "augment_type": variant_name,
+                    "plate_type": record["plate_type"]
                 }
             )
 
     output_df = pd.DataFrame(rows)
-    output_df.to_csv(output_path / "final_data.csv", index=False)
+    output_df.to_csv(output_path / "synthetic_data.csv", index=False)
     return output_df
 
 

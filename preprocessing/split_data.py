@@ -58,7 +58,7 @@ def split_dataframe_by_group(
 
 
 def sync_data(
-	input_csv: str = "./data/synthetic_data.csv",
+	input_csv: str = "./data/synthetic/synthetic_data.csv",
 	output_dir: str = "./data/splits",
 	train_ratio: float = 0.7,
 	val_ratio: float = 0.15,
@@ -78,12 +78,13 @@ def sync_data(
 	df = df.copy()
 	df["clean_plate"] = df["plate"].apply(remove_special_characters)
 
-	if "source_img" in df.columns:
-		df["group_id"] = df["clean_plate"].where(df["clean_plate"] != "", df["source_img"])
+	# Build group_id from clean_plate + plate_type
+	if "plate_type" in df.columns:
+		base_id = df["clean_plate"].where(df["clean_plate"] != "", df.get("source_img", df["img"]))
+		df["group_id"] = base_id.astype(str) + "_" + df["plate_type"].astype(str)
 	else:
-		df["group_id"] = df["clean_plate"].where(df["clean_plate"] != "", df["img"])
-
-	# df = df.dropna(subset=["plate", "img"])
+		raise ValueError("Input CSV must contain a 'plate_type' column to build group_id")
+	
 	df = df[df["group_id"].astype(str).str.len() > 0].copy()
 
 	train_df, val_df, test_df = split_dataframe_by_group(
@@ -118,7 +119,7 @@ def sync_data(
 
 def parse_args() -> argparse.Namespace:
 	parser = argparse.ArgumentParser(description="Split plate data by grouped vehicle id to avoid data leakage.")
-	parser.add_argument("--input-csv", default="./data/synthetic_data.csv", help="Input CSV path")
+	parser.add_argument("--input-csv", default="./data/synthetic/synthetic_data.csv", help="Input CSV path")
 	parser.add_argument("--output-dir", default="./data/splits", help="Output directory for split CSVs")
 	parser.add_argument("--train-ratio", type=float, default=0.7, help="Train split ratio")
 	parser.add_argument("--val-ratio", type=float, default=0.15, help="Validation split ratio")
