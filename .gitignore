@@ -15,3 +15,6 @@ data/real_dataset/
 truck_video/
 data/processed/images/
 data/processed/images_resized/
+
+baseline/finetune_paddleocr/PaddleOCR/
+baseline/finetune_paddleocr/train_data/images/
