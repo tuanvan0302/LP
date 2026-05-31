@@ -18,3 +18,7 @@ data/processed/images_resized/
 
 baseline/finetune_paddleocr/PaddleOCR/
 baseline/finetune_paddleocr/train_data/images/
+baseline/finetune_paddleocr/setup_dataset.py
+
+notebook/
+

@@ -1,0 +1,16 @@
+{
+  "synthetic": {
+    "dataset": "synthetic",
+    "total_samples": 1244,
+    "correct": 414,
+    "accuracy_pct": 33.28,
+    "avg_cer": 0.4118
+  },
+  "realworld": {
+    "dataset": "realworld",
+    "total_samples": 801,
+    "correct": 218,
+    "accuracy_pct": 27.22,
+    "avg_cer": 0.4147
+  }
+}
